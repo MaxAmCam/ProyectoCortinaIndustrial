@@ -1,9 +1,7 @@
 # Hito 1 – Análisis y Requerimientos
 
 ## Descripción del problema
-El problema consiste en diseñar un sistema de control básico utilizando un PLC Siemens LOGO
-capaz de gestionar una secuencia de encendido y apagado de salidas a partir de entradas digitales,
-considerando condiciones de operación normal y de seguridad.
+El problema consiste en diseñar un programa básico en Siemens LOGO que controle tres salidas digitales de forma secuencial y cíclica, donde cada salida permanece activa durante un tiempo definido y posteriormente se apaga, repitiendo el ciclo de manera indefinida.
 
 ## Requerimientos del sistema
 ### Funcionales
