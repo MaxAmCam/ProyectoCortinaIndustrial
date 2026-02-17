@@ -10,24 +10,25 @@ La automatización debe permitir que la cortina se enrolle hasta una altura dete
 - El sistema debe permitir operar la cortina en modo manual y en modo automático
 - El sistema debe permitir configurar la altura máxima a la que sube la cortina desde la interfaz de operación
 - El sistema debe permitir ajustar el tiempo en que sube la cortina en un rango de 3 a 5 segundos
-- El sistema debe operar con dos velocidades de movimiento: una velocidad alta al inicio de la subida y una velocidad baja antes de detenerse
-- En modo automático, el sistema debe ejecutar un ciclo completo que incluya la subida de la cortina, un tiempo de espera en la posición superior y la bajada a velocidad lenta
+- El sistema debe funcionar con dos velocidades de movimiento: una alta al inicio de la subida y una velocidad baja antes de detenerse
+- En modo automático el sistema debe ejecutar un ciclo completo que incluya la subida de la cortina, un tiempo de espera en la posición superior y la bajada a velocidad lenta
 - El sistema debe permitir activar el movimiento desde botones físicos y también desde la interfaz de operación
 - El sistema debe mostrar en la interfaz información como la posición de la cortina y el número de ciclos realizados
+- El sistema debe permitir el acceso a distintas funciones según el tipo de usuario
 
 ### Técnicos
 - El sistema debe contar con un actuador capaz de levantar y bajar la cortina considerando su peso y dimensiones
-- El sistema debe utilizar sensores para definir y detectar los límites superior e inferior del movimiento de la cortina
-- El sistema debe permitir la configuración de parámetros como tiempos, alturas y velocidades desde la interfaz del usuario
+- El sistema debe utilizar sensores para detectar y definir  los límites superior e inferior del movimiento de la cortina
+- El sistema debe permitir que se configuren parámetros como tiempos, alturas y velocidades desde la interfaz del usuario
 - El sistema de control debe ser capaz de gestionar el cambio de velocidades durante el movimiento de la cortina
 - El sistema debe estar diseñado para operar de manera confiable y segura en un entorno industrial
 
 ### Seguridad
 - El sistema debe detener el movimiento de bajada cuando se detecte la presencia de un objeto o de una persona
-- Al detectar un obstáculo durante el cierre el sistema debe invertir el movimiento y subir la cortina nuevamente
-- El sistema no debe permitir que la cortina se mueva fuera de los límites establecidos para evitar daños mecánicos
-- El sistema debe generar y mostrar alarmas cuando se detecten situaciones de riesgo, como la detección de obstáculos
-- El acceso a configuraciones críticas del sistema debe estar restringido a usuarios autorizados
+- Al detectar un obstáculo durante el cierre el sistema debe de subir la cortina nuevamente
+- El sistema no debe permitir que la cortina se mueva fuera de los límites para evitar daños mecánicos
+- El sistema debe mostrar alarmas cuando se detecten situaciones de riesgo, como que se detecte un obstáculo
+- El acceso a configuraciones importantes del sistema debe estar restringido a usuarios autorizados
 
 ## Diagrama de bloques
 <img width="704" height="185" alt="image" src="https://github.com/user-attachments/assets/c6ffc489-9f33-42f8-b465-ff9f63d50de0" />
