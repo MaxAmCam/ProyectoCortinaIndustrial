@@ -1,7 +1,9 @@
 # Hito 1 – Análisis y Requerimientos
 
 ## Descripción del problema
-Describe el problema de ingeniería que se resolverá.
+El problema consiste en diseñar un sistema de control básico utilizando un PLC Siemens LOGO
+capaz de gestionar una secuencia de encendido y apagado de salidas a partir de entradas digitales,
+considerando condiciones de operación normal y de seguridad.
 
 ## Requerimientos del sistema
 ### Funcionales
