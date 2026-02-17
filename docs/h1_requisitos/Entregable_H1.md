@@ -5,7 +5,11 @@ El problema consiste en diseñar un programa básico en Siemens LOGO que control
 
 ## Requerimientos del sistema
 ### Funcionales
-- 
+- El sistema deberá encender la primera salida durante 5 segundos y posteriormente apagarla.
+- El sistema deberá encender la segunda salida durante 1 segundo y posteriormente apagarla.
+- El sistema deberá encender la tercera salida durante 4 segundos y posteriormente apagarla.
+- El sistema deberá ejecutar las salidas de manera secuencial.
+- El sistema deberá repetir el ciclo de forma indefinida.
 
 ### Técnicos
 - 
