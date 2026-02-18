@@ -31,7 +31,7 @@ Esta semana se aplicaron conceptos del curso MR2022 relacionados con la lectura 
 # Bitácora – Semana 1 - Joel
 
 ## Tema de la semana
-Análisis de la situación problema y creación del programa básico (Práctica 1)
+Introducción al proyecto y práctica básica con LOGO
 
 ## Actividades realizadas
 Durante la clase utilizamos GitHub para comenzar a trabajar con el repositorio del proyecto. En esta etapa se creó la estructura de carpetas que se usará durante el reto, lo cual permitió organizar el trabajo desde el inicio y definir cómo se irá documentando cada avance del proyecto.
