@@ -51,7 +51,7 @@ Uno de los principales problemas fue entender cómo funcionaban los temporizador
 Para resolverlo, seguí las instrucciones de la práctica y del profesor Camilo paso a paso hasta comprobar que el programa funcionaba correctamente y que las salidas se encendían y apagaban como se pedía.
 
 ## Conexión con el curso
-Esta semana se trabajaron conceptos básicos de la mecatrónica, principalmente relacionados con el control de sistemas y la programación básica. La práctica me ayudó a entender cómo un programa puede controlar un proceso de forma automática y la importancia de la lógica en un sistema mecatrónico.
+Esta semana trabaje conceptos básicos de la mecatrónica, principalmente relacionados con el control de sistemas y la programación básica. La práctica me ayudó a entender cómo un programa puede controlar un proceso de forma automática y la importancia de la lógica en un sistema mecatrónico.
 
 ## Autoevaluación
 - ⬜ Muy perdido
