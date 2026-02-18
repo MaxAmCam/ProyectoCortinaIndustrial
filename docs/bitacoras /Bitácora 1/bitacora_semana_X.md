@@ -28,6 +28,36 @@ Esta semana se aplicaron conceptos del curso MR2022 relacionados con la lectura 
 - ⬜ Dominando
 
 
+# Bitácora – Semana 1 - Joel
+
+## Tema de la semana
+Análisis de la situación problema y creación del programa básico (Práctica 1)
+
+## Actividades realizadas
+Durante la clase utilizamos GitHub para comenzar a trabajar con el repositorio del proyecto. En esta etapa se creó la estructura de carpetas que se usará durante el reto, lo cual permitió organizar el trabajo desde el inicio y definir cómo se irá documentando cada avance del proyecto.
+
+Posteriormente, descargamos el software LOGO Soft Comfort y realizamos una práctica básica. En esta práctica se programó una secuencia sencilla donde distintas salidas se encendían y apagaban durante diferentes intervalos de tiempo. El objetivo principal fue familiarizarnos con el entorno del programa y comprender de manera inicial cómo funciona la lógica de programación en LOGO.
+
+## Decisiones de ingeniería
+| Decisión | Alternativas | Justificación |
+|Uso de GitHub|Trabajar sin una estructura definida|GitHub ayuda a mantener organizado el proyecto desde el inicio|
+
+## Problema técnico encontrado
+Uno de los principales problemas fue entender cómo funcionaban los temporizadores dentro de LOGO y cómo debían conectarse correctamente para que las salidas se activaran en el orden y tiempo indicados, ya que era la primera vez que utilizaba el software.
+
+## Solución aplicada
+Para resolverlo, seguí las instrucciones de la práctica y del profesor Camilo paso a paso hasta comprobar que el programa funcionaba correctamente y que las salidas se encendían y apagaban como se pedía.
+
+## Conexión con el curso
+Esta semana se trabajaron conceptos básicos de la mecatrónica, principalmente relacionados con el control de sistemas y la programación básica. La práctica me ayudó a entender cómo un programa puede controlar un proceso de forma automática y la importancia de la lógica en un sistema mecatrónico.
+
+## Autoevaluación
+- ⬜ Muy perdido
+- ⬜ Con dudas
+- ☑️ Entendiendo
+- ⬜ Dominando
+
+
 # Bitácora – Semana 1 
 
 ## Tema de la semana
