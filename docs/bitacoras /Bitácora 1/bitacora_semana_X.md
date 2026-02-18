@@ -40,7 +40,9 @@ Posteriormente, descargamos el software LOGO Soft Comfort y realizamos una prác
 
 ## Decisiones de ingeniería
 | Decisión | Alternativas | Justificación |
-|Uso de GitHub|Trabajar sin una estructura definida|GitHub ayuda a mantener organizado el proyecto desde el inicio|
+|---------|-------------|---------------|
+| Uso de GitHub | Trabajar sin una estructura definida | GitHub ayuda a mantener organizado el proyecto desde el inicio |
+
 
 ## Problema técnico encontrado
 Uno de los principales problemas fue entender cómo funcionaban los temporizadores dentro de LOGO y cómo debían conectarse correctamente para que las salidas se activaran en el orden y tiempo indicados, ya que era la primera vez que utilizaba el software.
