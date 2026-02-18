@@ -1,4 +1,4 @@
-# Bitácora – Semana 1 - Sara 
+# Bitácora – Semana 1 - Sara
 
 ## Tema de la semana
 Análisis de la situación problema y creación del programa básico (Práctica 1)
