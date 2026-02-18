@@ -90,26 +90,25 @@ Explica cómo se resolvió.
 # Bitácora – Semana 1 - Claudio
 
 ## Tema de la semana
-(Sensores / Actuadores / Control / HMI)
+Introducción a la situacion problema y aprendiendo a usar LOGO!
 
 ## Actividades realizadas
-Describe brevemente lo que trabajó el equipo.
+Tuvimos una introducción a la situación problema ( cortina industrial ) y tuvimos una breve introducción al software LOGO!. Tambien aprendimos a usar la plataforma Github con el fin de tener una mejor organizacion en la documentación del proyecto.
 
 ## Decisiones de ingeniería
 | Decisión | Alternativas | Justificación |
-|--------|-------------|---------------|
+|Hacer uso de Github|Asignar una tarea a cada integrante del equipo|Se utiliza Github con la finalidad de tener una mejor organización en la documentación|
 
 ## Problema técnico encontrado
-Describe un problema concreto.
+Aprender a utilizar de manera efectiva el software LOGO sin tener ninguna experiencia previa.
 
 ## Solución aplicada
-Explica cómo se resolvió.
+Seguir las instrucciónes del profesor para poder hacer la practica en tiempo y forma.
 
 ## Conexión con el curso
-¿Qué concepto de MR2022 aplicaste esta semana?
-
+Para que un sistema mecatronico este completo debe de cumplir con sensores, actuadores, una unidad de control o algun microcontrolador, y el sistema fisico. El aprender a hacer uso del software de LOGO! es parte de aprender a controlar el sistema por medio de programación.
 ## Autoevaluación
 - ⬜ Muy perdido
 - ⬜ Con dudas
-- ⬜ Entendiendo
+- ☑️ Entendiendo
 - ⬜ Dominando
