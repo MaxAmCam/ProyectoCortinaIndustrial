@@ -87,7 +87,7 @@ Explica cómo se resolvió.
 - ⬜ Dominando
 
 
-# Bitácora – Semana 1 
+# Bitácora – Semana 1 - Claudio
 
 ## Tema de la semana
 (Sensores / Actuadores / Control / HMI)
