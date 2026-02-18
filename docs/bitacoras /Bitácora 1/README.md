@@ -10,6 +10,7 @@ También trabajamos en el Hito 1 – Análisis y Requerimientos, en el cual tuvi
 
 ## Decisiones de ingeniería
 | Decisión | Alternativas | Justificación |
+|---------|-------------|---------------|
 |Repartir el trabajo en el equipo|Que una sola persona realizara todo|Permite un mejor análisis y así podemos aprovechar mejor el tiempo|
 
 ## Problema técnico encontrado
