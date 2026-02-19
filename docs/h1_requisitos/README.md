@@ -32,6 +32,7 @@ La automatización debe permitir que la cortina se enrolle hasta una altura dete
 
 ## Diagrama de bloques
 <img width="704" height="185" alt="image" src="https://github.com/user-attachments/assets/c6ffc489-9f33-42f8-b465-ff9f63d50de0" />
+
 El funcionamiento del sistema sigue el flujo: sensores y botones (medición y entrada de señales) → sistema de control LOGO (procesamiento y toma de decisiones) → actuador/motor (actuación) → sistema mecánico (movimiento de la cortina), mientras que la interfaz de operación permite la supervisión y configuración por parte del usuario.
 
 ## Tabla I/O v1 (Entradas / Salidas)
