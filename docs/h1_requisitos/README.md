@@ -33,5 +33,19 @@ La automatización debe permitir que la cortina se enrolle hasta una altura dete
 ## Diagrama de bloques
 <img width="704" height="185" alt="image" src="https://github.com/user-attachments/assets/c6ffc489-9f33-42f8-b465-ff9f63d50de0" />
 
+## Tabla I/O v1 (Entradas / Salidas)
+| Tipo | Nombre | Descripción | Condición de activación / uso | Notas de seguridad / estado |
+|-----|-------|-------------|-------------------------------|-----------------------------|
+| DI | Botón Subir | Botón físico para subir la cortina | Se activa cuando el usuario presiona el botón | Uso en modo manual |
+| DI | Botón Bajar | Botón físico para bajar la cortina | Se activa mientras el botón esté presionado | Uso en modo manual |
+| DI | Botón Paro | Botón de paro del sistema | Se activa al presionar el botón | Señal crítica de seguridad |
+| DI | Sensor límite superior | Detecta que la cortina llegó a la posición máxima | Se activa al alcanzar la altura configurada | Evita sobre recorrido |
+| DI | Sensor límite inferior | Detecta que la cortina llegó a la posición mínima | Se activa al llegar al fondo | Evita daños mecánicos |
+| DI | Sensor de obstáculo | Detecta presencia de personas u objetos | Se activa durante el cierre | Señal crítica de seguridad |
+| DO | Motor subir | Activa el motor para subir la cortina | Se activa cuando el sistema ordena subir | Controlado por el sistema |
+| DO | Motor bajar | Activa el motor para bajar la cortina | Se activa cuando el sistema ordena bajar | Se bloquea si hay obstáculo |
+| DO | Alarma | Señal visual o sonora de alerta | Se activa al detectar un obstáculo o error | Estado de advertencia |
+| DO | Indicador de estado | Indica el estado del sistema | Activo durante la operación | Información al usuario |
+
 ## Conclusiones del análisis
 A partir del análisis de la situación problema, podemos concluir que la automatización de la cortina industrial requiere una integración adecuada de elementos mecánicos, eléctricos y de control. El punto más importante del sistema es la seguridad durante su operación, sobre todo en el movimiento de bajada. Definir claramente los requerimientos desde esta etapa nos permite establecer una base sólida para el diseño del sistema y para las siguientes fases del proyecto.
