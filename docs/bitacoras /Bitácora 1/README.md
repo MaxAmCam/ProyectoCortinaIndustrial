@@ -64,27 +64,35 @@ Esta semana trabaje conceptos básicos de la mecatrónica, principalmente relaci
 
 ## Tema de la semana
 (Sensores / Actuadores / Control / HMI)
+Introducción a la situación problema y práctica con LOGO
 
 ## Actividades realizadas
 Describe brevemente lo que trabajó el equipo.
+Se dio introducción al reto que se llevara en las 5 semanas, se dio a conocer la platafroma que se llevaria a cabo el progreso del reto Github y la estructura que se llevara en las 5 semanas para la documentación de este.
+En esta primera sesión se dio igual la introducción a LOGO donde con una practica sencilla se pudo ver el funcionamiento que puede el SIEMENS LOGO y como este es utilizado para la automatización de pequeñas tareas en la industria.
 
 ## Decisiones de ingeniería
 | Decisión | Alternativas | Justificación |
 |--------|-------------|---------------|
+| Uso de GitHub | Llevar la documentación de una forma no tan organizada | GitHub es una plataforma donde se puede trabajar simultaneamente y se puede organizar de forma mas sencilla |
 
 ## Problema técnico encontrado
 Describe un problema concreto.
+Diferenciar los diferentes bloques o conocer la función de cada uno de ellos.
 
 ## Solución aplicada
 Explica cómo se resolvió.
+Encontrar de manera visual la diferencia de los bloques e igual preguntar al profesor cual es, para saber cual es la función se acudio tanto con el profesor o por medio de investigación.
 
 ## Conexión con el curso
 ¿Qué concepto de MR2022 aplicaste esta semana?
+Aplique con mis otros cursos los conceptos introductorios a la mecatronica. Igual empezarme a familiarizar con palabras claves en la mecatronica que son como actuadores, sensores, controladores que son elementos y conceptos primordiales dentro de la carrera.
 
 ## Autoevaluación
 - ⬜ Muy perdido
 - ⬜ Con dudas
 - ⬜ Entendiendo
+- ☑️ Entendiendo
 - ⬜ Dominando
 
 
@@ -98,6 +106,7 @@ Tuvimos una introducción a la situación problema ( cortina industrial ) y tuvi
 
 ## Decisiones de ingeniería
 | Decisión | Alternativas | Justificación |
+|--------|-------------|---------------|
 |Hacer uso de Github|Asignar una tarea a cada integrante del equipo|Se utiliza Github con la finalidad de tener una mejor organización en la documentación|
 
 ## Problema técnico encontrado
