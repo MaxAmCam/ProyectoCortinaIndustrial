@@ -2,6 +2,7 @@
 
 ## Sensores seleccionados
 | Sensor | Variable | Tipo de señal | Justificación |
+|------|----------|---------------|---------------|
 |Sensor magnético de proximidad FESTO SME-8M-DS-24V-K-2,5-OE|Campo magnético (posición de la cortina)|Digital 24 VDC|Utilizaremos este sensor para detectar las posiciones (superior, media e inferior) de la cortina  industrial. Funciona mediante un imán, el cual está instalado en el mecanismo móvil; así podemos saber cuándo la cortina está abierta, en posición intermedia o completamente cerrada.|
 |------|----------|---------------|---------------|
 |Sensor de proximidad capacitivo LJC18A3-B-Z/BX (NPN-NO)|Variación de capacitancia (presencia de material)||Digital NPN – Normalmente Abierto|Este sensor nos permite detectar materiales metálicos y no metálicos, como plástico, madera o incluso líquidos. Puede utilizarse para detectar la presencia de objetos y materiales en el área de operación.
