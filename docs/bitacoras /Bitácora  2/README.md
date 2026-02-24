@@ -30,6 +30,8 @@ Esta semana aplicamos los conceptos de sensores vistos en clase. Aprendimos a id
 - ☑️ Entendiendo
 - ⬜ Dominando
 
+
+
 # Bitácora – Semana X
 
 ## Tema de la semana
