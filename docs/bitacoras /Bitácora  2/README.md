@@ -10,9 +10,8 @@ También nos familiarizamos con los materiales que vamos a utilizar en el reto y
 
 ## Decisiones de ingeniería
 | Decisión | Alternativas | Justificación |
-|--------|-------------|---------------|
 |Cómo conectar los cables de los sensores|Conectarlos por separado |Decidimos unir todos los cables café en el mismo punto (24V) y todos los azules en tierra, porque todos usan la misma alimentación. Aunque ya teníamos el diagrama, fue complicado porque muchos cables iban al mismo lugar y se veía muy desorganizado. Además, teníamos miedo de que alguno de los cables no estuviera bien conectado, pero nos organizamos mejor y lo logramos.| 
-
+|--------|-------------|---------------|
 
 ## Problema técnico encontrado
 Se nos dificultó conectar todos los sensores porque varios cables iban al mismo punto y se veía confuso.
