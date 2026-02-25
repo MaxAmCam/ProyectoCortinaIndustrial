@@ -226,7 +226,7 @@ https://serproindu.cl/wp-content/uploads/2024/09/FICHA-TECNICA-SME-8M-DS-24V-K-2
 
 | Parámetro                          | Valor Datasheet | Valor Experimental | Error (%) |
 |------------------------------------|-----------------|--------------------|-----------|
-| Distancia nominal                  |         4mm        |        4.6cm            |    N/A       |
+| Distancia nominal                  |         4mm        |        0.1cm            |    N/A       |
 | Tiempo de respuesta (si aplica)    |         No especificado       |      Inmediato              |      N/A     |
 | Tipo de material recomendado       |        Metalicos y Magneticos        |          Metalicos y Magneticos              |     -      |
 
