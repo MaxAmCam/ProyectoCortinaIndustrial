@@ -99,3 +99,35 @@ La conexión al LOGO! y las pruebas realizadas me ayudaron a reforzar el concept
 - ⬜ Con dudas
 - ☑️ Entendiendo
 - ⬜ Dominando
+
+
+
+# Bitácora – Semana 2 - Claudio
+
+## Tema de la semana  
+Realizar el diagrama de las conexiones de LOGO! y empezar hacer pruebas con los sensores.
+
+## Actividades realizadas  
+Realizamos un diagrama de las conexiones que llevamos a cabo. Tambien hicimos pruebas con cada uno de los sensores que estaremos utilizando y terminamos de conectar todos los cables en el LOGO!. Se aseguro que todo estuviera bien conectado para poder conectarlo todo a una fuente de Voltaje.
+
+## Decisiones de ingeniería
+
+| Decisión | Alternativas | Justificación |
+|----------|-------------|---------------|
+| Probar los sensores por separado| Probar todos los sensores al mismo tiempo | Hacer la prueba con cada sensor por separado nos ayudo a detectar si ocurria alguna falla o si debiamos de hacer alguna modificacion |
+
+
+## Problema técnico encontrado  
+El LOGO! no se encendio al conectarse a la fuente de voltaje.
+
+## Solución aplicada  
+Revisamos todo el circuito y detectamos que el fusible de la clema necesitaba ser reemplazado.Una vez hecho el cambio, el LOGO! encendió de manera correcta y errores.
+## Conexión con el curso  
+El trabajo de la semana nos ayudo a familiarizarnos con los sensores, de igual manera que el trabajar en hacer el diagrama de las conexiones del LOGO! en un software en linea para poder tener una mejor organizacion y visualización del trabajo.
+
+
+## Autoevaluación
+- ⬜ Muy perdido
+- ⬜ Con dudas
+- ☑️ Entendiendo
+- ⬜ Dominando
