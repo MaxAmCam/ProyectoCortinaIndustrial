@@ -25,8 +25,8 @@
 1.4) Sensor de proximidad infrarojo:Limpiar lente óptico frecuentemente. Monitorear diagnóstico en tiempo real y evitar reflexiones falsas con calibración.
 
 
-## MR2022 -- Registro Experimental de Pruebas de Sensores de Proximidad
-# Identificación del Sensor
+# MR2022 -- Registro Experimental de Pruebas de Sensores de Proximidad
+## Identificación del Sensor
 
   Parámetro                             Información
   ------------------------------------- ---------------------------------------------
