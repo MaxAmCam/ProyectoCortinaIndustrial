@@ -8,6 +8,7 @@
 |Sensor de proximidad inductivo LJ12A3-4-Z/BX (NPN-NO)|Campo electromagnético (detección de metal)|Digital NPN – Normalmente Abierto |Se utiliza para detectar únicamente partes metálicas del sistema. También se puede utilizar como un botón de inicio sin contacto, acercando una pieza metálica al sensor para activar el sistema; esto nos da una mayor seguridad.|
 |Sensor de proximidad infrarrojo E3F-DS30P1 (PNP-NO)|Radiación infrarroja reflejada (presencia de objeto)|Digital PNP – Normalmente Abierto|Se utilizará como sensor de seguridad para detectar si hay personas u objetos en el área de operación.|
 
+
 ## Plan de Pruebas de Sensores
 
 | # | Sensor                         | Condición inicial                          | Estímulo aplicado            | Resultado esperado              | Resultado obtenido        | Criterio |
@@ -20,6 +21,7 @@
 | 6 | Sensor Capacitivo       | Sensor energizado                          | Aproximación de plástico     | Activación del sensor           | Activación a 0.2 cm       | PASS     |
 | 7 | Sensor Capacitivo       | Sensor energizado                          | Aproximación de metal        | Activación del sensor           | Activación a 0.3 cm       | PASS     |
 | 8 |  Sensor Capacitivo        | Sensor energizado                          | Aproximación de mano         | Activación del sensor           | Activación a 0.5 cm       | PASS     |
+
 
 ## Riesgos y consideraciones
 ¿Qué podría fallar y cómo se mitiga?
@@ -37,20 +39,7 @@
 1.4) Sensor de proximidad infrarojo:Limpiar lente óptico frecuentemente. Monitorear diagnóstico en tiempo real y evitar reflexiones falsas con calibración.
 
 
-
-
 ## MR2022 -- Registro Experimental de Pruebas de Sensores de Proximidad
-
-## Curso: Análisis de Elementos de Mecatrónica
-
-## Práctica: Conexión y validación de sensores con Siemens LOGO
-
-## Equipo: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
-## Integrantes: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
-## Fecha: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
 ------------------------------------------------------------------------
 
 # 1️⃣ Identificación del Sensor
