@@ -331,7 +331,8 @@ Conclusión:
 
 ## Evidencia
 
-![Sensor inductivo](docs/GIFTS/Capacitivo.gif) 
+![Sensor Capacitivo](GIFTS/Capacitivo.gif)
+
 -   Fotografías del montaje:
 -   Capturas del programa en LOGO:
 -   Video corto de funcionamiento:
