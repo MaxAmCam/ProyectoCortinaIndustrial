@@ -259,81 +259,51 @@ Mover el objeto en incrementos regulares y registrar comportamiento del LED y de
 ## Análisis Técnico del Equipo
 
 ## 5.1 ¿Coincide la distancia real con la nominal?
+No en todos los sensores coincidió exactamente la distancia real con la indicada en el datasheet.
 
-Respuesta: Nosotros observamos que no en todos los sensores coincidió exactamente la distancia real con la distancia nominal del datasheet.
+En el sensor infrarrojo, sí coincidió, ya que el fabricante indica un rango de 5 a 30 cm y se comprobó detección hasta 30 cm.
 
-En el sensor infrarrojo sí coincidió, ya que el fabricante indica que detecta de 5 a 30 cm y nosotros comprobamos que detectó hasta 30 cm.
+En el sensor capacitivo, la distancia fue menor: el datasheet indica 1 cm y se obtuvo aproximadamente 0.5 cm, probablemente por el tipo de material y las condiciones del ambiente.
 
-En el sensor capacitivo la distancia fue menor, ya que el datasheet dice 1 cm y nosotros obtuvimos aproximadamente 0.5 cm. Creemos que esto pasó por el tipo de material y las condiciones del ambiente.
+Por el contrario, en el sensor inductivo la distancia fue mayor. El fabricante indica 4 mm y se alcanzaron hasta 13 mm con el imán, debido a su material metálico.
 
-En el sensor inductivo la distancia fue mayor, porque el datasheet indica 4 mm y nosotros obtuvimos hasta 13 mm cuando usamos el imán, esto sucede porque el imán tiene material metálico.
-
-En el sensor magnético no viene una distancia exacta en el datasheet, pero nosotros medimos que funcionó hasta 4.6 cm.
-
-Con esto comprobamos que los sensores pueden cambiar su comportamiento dependiendo del material y las condiciones.
-
-------------------------------------------------------------------------
+En el sensor magnético, no se especifica distancia exacta en el datasheet, pero se midió un alcance de 4.6 cm.
 
 ## 5.2 ¿Qué fenómeno físico explica el comportamiento observado?
+Cada sensor funciona con un principio físico distinto.
 
-(Ejemplo: corrientes de Foucault, constante dieléctrica, reflexión
-óptica, campo magnético)
-
-Respuesta: Nosotros observamos que cada sensor funciona con un fenómeno físico diferente.
-
-El sensor inductivo funciona mediante un campo electromagnético, cuando un metal entra en ese campo el sensor lo detecta.
-
-El sensor capacitivo funciona cuando cambia la capacitancia al acercar un objeto.
-
-El sensor infrarrojo funciona mediante la reflexión de la luz infrarroja, cuando la luz rebota en el objeto el sensor lo detecta.
-
-El sensor magnético funciona cuando detecta el campo magnético del imán.
-
-------------------------------------------------------------------------
+El inductivo opera mediante un campo electromagnético que detecta metales.
+El capacitivo se activa cuando cambia la capacitancia al acercar un objeto.
+El infrarrojo detecta por reflexión de luz IR.
+El magnético responde al campo magnético del imán.
 
 ## 5.3 ¿Qué materiales generan mejor desempeño? ¿Por qué?
+En el sensor inductivo, el mejor desempeño se obtuvo con el imán por su material metálico.
 
-Respuesta: Nosotros observamos que el imán fue el mejor material para el sensor inductivo porque es conductor.
+En el capacitivo, el imán, el agua y la piel dieron buenos resultados porque modifican la capacitancia.
 
-En el sensor capacitivo el ián tiene mejores resultados pero también el agua y la piel funcionaron bien porque cambian la capacitancia.
+En el infrarrojo, casi todos funcionaron, excepto el plástico transparente, ya que no refleja bien la luz.
 
-En el sensor infrarrojo casi todos los materiales funcionaron bien, excepto el plástico transparente, porque no refleja la luz.
-
-En el sensor magnético solamente funcionó el imán porque es el único que tiene campo magnético.
-
-------------------------------------------------------------------------
+En el magnético, únicamente el imán permitió activación por su campo magnético.
 
 ## 5.4 ¿Detectaron zonas muertas o inestabilidad?
+Sí, algunos sensores dejaron de detectar después de su distancia máxima.
 
-Respuesta: Sí, nosotros observamos que algunos sensores dejaron de detectar después de cierta distancia.
+El capacitivo y el inductivo perdieron detección al superar su rango.
+El infrarrojo fue el más estable.
+El magnético funcionó correctamente mientras el imán estuvo dentro del rango.
 
-El sensor capacitivo dejó de detectar después de su rango.
-
-El sensor inductivo también dejó de detectar al alejar el objeto.
-
-El sensor infrarrojo fue el más estable.
-
-El sensor magnético también fue estable mientras el imán estaba dentro del rango.
-
-Esto es normal porque todos los sensores tienen un límite de funcionamiento.
-
-------------------------------------------------------------------------
+Esto es normal porque todos los sensores tienen un límite de operación.
 
 ## 5.5 ¿Este sensor sería adecuado para la situación problema del curso?
+Sí, los sensores son adecuados para el proyecto.
 
-Justificar técnica y económicamente.
+El magnético es ideal para posición de la cortina.
+El infrarrojo aporta seguridad al detectar obstáculos.
+El inductivo permite activación sin contacto.
+El capacitivo detecta distintos materiales.
 
-Respuesta: Sí, nosotros consideramos que los sensores sí son adecuados para nuestro proyecto.
-
-El sensor magnético es muy útil para detectar la posición de la cortina.
-
-El sensor infrarrojo es importante para la seguridad, porque detecta personas y objetos.
-
-El sensor inductivo sirve para detectar metal o como botón sin contacto.
-
-El sensor capacitivo sirve para detectar diferentes materiales.
-
-Además, todos se pueden conectar al PLC LOGO y son accesibles.
+Además, todos son compatibles con el PLC LOGO!, trabajan a 24V y son accesibles económicamente.
 
 ------------------------------------------------------------------------
 
@@ -413,7 +383,6 @@ Este sensor presentó una buena distancia de detección, siendo útil para aplic
 ## Conclusión Ingenieril
 
 ## ¿Recomendarían estos sensores?
-
 Sí, nosotros recomendamos el uso de estos sensores en el proyecto de la cortina industrial, ya que durante las pruebas experimentales demostraron un funcionamiento adecuado, buena precisión y compatibilidad con el PLC LOGO.
 
 El sensor inductivo y el sensor magnético fueron los más confiables, ya que presentaron mayor estabilidad y precisión en la detección.
@@ -422,10 +391,8 @@ El sensor infrarrojo también es recomendable, especialmente para funciones de s
 
 El sensor capacitivo es útil cuando se requiere detectar diferentes tipos de materiales, aunque su precisión es menor que los otros sensores.
 
----
 
 ## ¿En qué condiciones sí?
-
 Recomendamos usar estos sensores en condiciones donde:
 
 - Se utilicen dentro de su distancia nominal de funcionamiento.
@@ -436,10 +403,8 @@ Recomendamos usar estos sensores en condiciones donde:
 
 En estas condiciones, los sensores funcionan de forma confiable y segura.
 
----
 
 ## ¿En qué condiciones no?
-
 No recomendamos su uso cuando:
 
 - Existan ambientes con exceso de polvo, humedad o grasa sin mantenimiento.
@@ -449,10 +414,8 @@ No recomendamos su uso cuando:
 
 Esto puede provocar fallas o falsas detecciones.
 
----
 
 ## ¿Qué riesgos industriales identifican?
-
 Los principales riesgos que nosotros identificamos son:
 
 - Falsas detecciones.
@@ -467,8 +430,10 @@ Sin embargo, estos riesgos se pueden reducir mediante una correcta instalación,
 ---
 
 ## Conclusión final
+Con base en las pruebas que realizamos, concluimos que los sensores son adecuados para el proyecto de la cortina industrial. Presentaron un funcionamiento correcto, compatibilidad con el PLC LOGO! y un desempeño acorde a sus especificaciones.
 
-En conclusión, nosotros consideramos que estos sensores son adecuados para el proyecto, ya que cumplen con los requerimientos técnicos, son fáciles de integrar con el PLC LOGO y presentan un funcionamiento confiable.
+Además tomando en consideración su confiabilidad, facilidad de integración y costo, representan una solución viable y técnicamente adecuada para el sistema propuesto.
+
 ------------------------------------------------------------------------
 
 ## Evidencia
@@ -492,9 +457,8 @@ Capacitivo
 ¿Qué aprendieron técnicamente sobre sensores de proximidad que no sabían
 antes?
 
-Respuesta:
+Durante este proyecto hemos aprendido que los sensores de proximidad no siempre trabajan exactamente con la distancia nominal que indica el datasheet, ya que su comportamiento puede variar dependiendo del material, el entorno y la instalación. Antes pensábamos que la especificación del fabricante se cumplía de forma exacta, pero comprobamos que en la práctica existen variaciones importantes.
 
-------------------------------------------------------------------------
+También comprendimos mejor los principios físicos detrás de cada sensor. Ahora sabemos que el inductivo funciona con un campo electromagnético, el capacitivo con cambios en la capacitancia, el infrarrojo mediante reflexión de luz y el magnético por detección de campo magnético. Esto nos permitió entender por qué algunos materiales se detectan mejor que otros.
 
-> ⚙️ Este documento forma parte del proceso de validación experimental
-> para la selección de sensores dentro del proyecto integrador MR2022.
+Además, aprendimos la importancia de la correcta instalación, alineación y mantenimiento para evitar falsas detecciones o fallos en el sistema. En general, esta práctica nos ayudó a conectar la teoría con la vida real en un sistema automatizado como la cortina industrial.
