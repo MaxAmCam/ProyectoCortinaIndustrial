@@ -338,13 +338,11 @@ Además, todos se pueden conectar al PLC LOGO y son accesibles.
 ------------------------------------------------------------------------
 
 ## Matriz de Decisión Técnica
-# Matriz de Decisión Técnica
-
 A continuación, presentamos la evaluación técnica de cada sensor utilizado en el proyecto, considerando su desempeño experimental, facilidad de integración y características industriales.
 
 ---
 
-# Sensor Magnético FESTO SME-8M-DS-24V-K-2,5-OE
+## Sensor Magnético FESTO SME-8M-DS-24V-K-2,5-OE
 
 | Criterio | Peso | Evaluación | Resultado ponderado |
 |---|---|---|---|
@@ -361,7 +359,7 @@ Este sensor presentó un funcionamiento muy estable y preciso al detectar el im�
 
 ---
 
-# Sensor Capacitivo LJC18A3-B-Z/BX
+## Sensor Capacitivo LJC18A3-B-Z/BX
 
 | Criterio | Peso | Evaluación | Resultado ponderado |
 |---|---|---|---|
@@ -378,7 +376,7 @@ Este sensor puede detectar diferentes materiales, pero su distancia de detecció
 
 ---
 
-# Sensor Inductivo LJ12A3-4-Z/BX
+## Sensor Inductivo LJ12A3-4-Z/BX
 
 | Criterio | Peso | Evaluación | Resultado ponderado |
 |---|---|---|---|
@@ -395,7 +393,7 @@ Este sensor fue uno de los más confiables, con buena precisión y excelente des
 
 ---
 
-# Sensor Infrarrojo E3F-DS30P1
+## Sensor Infrarrojo E3F-DS30P1
 
 | Criterio | Peso | Evaluación | Resultado ponderado |
 |---|---|---|---|
