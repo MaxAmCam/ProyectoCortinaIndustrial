@@ -260,7 +260,17 @@ Mover el objeto en incrementos regulares y registrar comportamiento del LED y de
 
 ## 5.1 ¿Coincide la distancia real con la nominal?
 
-Respuesta:
+Respuesta: Nosotros observamos que no en todos los sensores coincidió exactamente la distancia real con la distancia nominal del datasheet.
+
+En el sensor infrarrojo sí coincidió, ya que el fabricante indica que detecta de 5 a 30 cm y nosotros comprobamos que detectó hasta 30 cm.
+
+En el sensor capacitivo la distancia fue menor, ya que el datasheet dice 1 cm y nosotros obtuvimos aproximadamente 0.5 cm. Creemos que esto pasó por el tipo de material y las condiciones del ambiente.
+
+En el sensor inductivo la distancia fue mayor, porque el datasheet indica 4 mm y nosotros obtuvimos hasta 13 mm cuando usamos el imán, esto sucede porque el imán tiene material metálico.
+
+En el sensor magnético no viene una distancia exacta en el datasheet, pero nosotros medimos que funcionó hasta 4.6 cm.
+
+Con esto comprobamos que los sensores pueden cambiar su comportamiento dependiendo del material y las condiciones.
 
 ------------------------------------------------------------------------
 
@@ -269,19 +279,43 @@ Respuesta:
 (Ejemplo: corrientes de Foucault, constante dieléctrica, reflexión
 óptica, campo magnético)
 
-Respuesta:
+Respuesta: Nosotros observamos que cada sensor funciona con un fenómeno físico diferente.
+
+El sensor inductivo funciona mediante un campo electromagnético, cuando un metal entra en ese campo el sensor lo detecta.
+
+El sensor capacitivo funciona cuando cambia la capacitancia al acercar un objeto.
+
+El sensor infrarrojo funciona mediante la reflexión de la luz infrarroja, cuando la luz rebota en el objeto el sensor lo detecta.
+
+El sensor magnético funciona cuando detecta el campo magnético del imán.
 
 ------------------------------------------------------------------------
 
 ## 5.3 ¿Qué materiales generan mejor desempeño? ¿Por qué?
 
-Respuesta:
+Respuesta: Nosotros observamos que el imán fue el mejor material para el sensor inductivo porque es conductor.
+
+En el sensor capacitivo el ián tiene mejores resultados pero también el agua y la piel funcionaron bien porque cambian la capacitancia.
+
+En el sensor infrarrojo casi todos los materiales funcionaron bien, excepto el plástico transparente, porque no refleja la luz.
+
+En el sensor magnético solamente funcionó el imán porque es el único que tiene campo magnético.
 
 ------------------------------------------------------------------------
 
 ## 5.4 ¿Detectaron zonas muertas o inestabilidad?
 
-Respuesta:
+Respuesta: Sí, nosotros observamos que algunos sensores dejaron de detectar después de cierta distancia.
+
+El sensor capacitivo dejó de detectar después de su rango.
+
+El sensor inductivo también dejó de detectar al alejar el objeto.
+
+El sensor infrarrojo fue el más estable.
+
+El sensor magnético también fue estable mientras el imán estaba dentro del rango.
+
+Esto es normal porque todos los sensores tienen un límite de funcionamiento.
 
 ------------------------------------------------------------------------
 
@@ -289,7 +323,17 @@ Respuesta:
 
 Justificar técnica y económicamente.
 
-Respuesta:
+Respuesta: Sí, nosotros consideramos que los sensores sí son adecuados para nuestro proyecto.
+
+El sensor magnético es muy útil para detectar la posición de la cortina.
+
+El sensor infrarrojo es importante para la seguridad, porque detecta personas y objetos.
+
+El sensor inductivo sirve para detectar metal o como botón sin contacto.
+
+El sensor capacitivo sirve para detectar diferentes materiales.
+
+Además, todos se pueden conectar al PLC LOGO y son accesibles.
 
 ------------------------------------------------------------------------
 
