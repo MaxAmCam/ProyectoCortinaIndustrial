@@ -32,26 +32,29 @@ Esta semana aplicamos los conceptos de sensores vistos en clase. Aprendimos a id
 
 
 
-# Bitácora – Semana X
+# Bitácora – Semana 2 - Max
 
 ## Tema de la semana
-(Sensores / Actuadores / Control / HMI)
+(Sensores)
 
 ## Actividades realizadas
-Describe brevemente lo que trabajó el equipo.
+En esta semana se le dio introducción a los sensores, vimos en clase los diferentes tipos de sensores que podemos encontrar en nuestra vida cotidiana y como es que funcionan estos. Investigamos un poco mas sobre los sensores que se utilizaran en el proyecto (capacitivo, inductivo, óptico y magnético) y realizamos un diagrama para el cableado de nuestro sistema. 
+
+Posteriormente de tener el diagrama listo, cableamos nuestro sistema en el prototipo físico y lo conectamos a una fuente para poder verificar que la conexión si haya sido correcta. Posteriormente verificamos que los sensores funcionen correctamente e hicimos diferentes pruebas para poder analizar su comportamiento.
 
 ## Decisiones de ingeniería
 | Decisión | Alternativas | Justificación |
 |--------|-------------|---------------|
+|Como alimentar los sensores|Realizar conexiones individuales desde la fuente hacia cada sensor|Se optó por unificar la alimentación, conectando todos los 24 V en un mismo punto y todos los 0 V a tierra común, ya que los sensores operan con la misma tensión. Esto permitió simplificar el cableado y mantener una conexión ordenada y funcional.|
 
 ## Problema técnico encontrado
-Describe un problema concreto.
+Al conectarlo el LOGO no prendio.
 
 ## Solución aplicada
-Explica cómo se resolvió.
+Verificamos con un multímetro que hubiera corriente, vimos que en el fusible era la razón por la que el voltaje no pasaba, con ayuda del profesor lo cambiamos por uno nuevo y el LOGO empezó a funcionar.
 
 ## Conexión con el curso
-¿Qué concepto de MR2022 aplicaste esta semana?
+Aplicare los conceptos de sensores en toda mi carrera ya que son partes escenciales en cualquier equipo, igualmente a como planificar el cableado de un sistema mediante un diagrama, que en proyectos futuros puede funcionar para realizar trabajos y poder verificar con el diagrama antes de prototipar.
 
 ## Autoevaluación
 - ⬜ Muy perdido
