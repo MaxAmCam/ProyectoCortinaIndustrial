@@ -32,7 +32,7 @@
 
 ---
 
-# 1. Sensor de Proximidad Inductivo
+## 1. Sensor de Proximidad Inductivo
 
 | Característica | Descripción |
 |---|---|
@@ -49,7 +49,7 @@ https://lorentzzi.com/es/products/proximity-sensor/inductive-proximity-sensor/lj
 
 ---
 
-# 2. Sensor de Proximidad Capacitivo
+## 2. Sensor de Proximidad Capacitivo
 
 | Característica | Descripción |
 |---|---|
@@ -66,7 +66,7 @@ https://www.finglai.com/products/sensors/capacitive-proximity-sensors/LJC18A3-B/
 
 ---
 
-# 3. Sensor de Proximidad Óptico Infrarrojo
+## 3. Sensor de Proximidad Óptico Infrarrojo
 
 | Característica | Descripción |
 |---|---|
@@ -83,7 +83,7 @@ https://www.finglai.com/products/sensors/cylinder-amplifier-photoelectric-sensor
 
 ---
 
-# 4. Sensor Magnético de Proximidad
+## 4. Sensor Magnético de Proximidad
 
 | Característica | Descripción |
 |---|---|
