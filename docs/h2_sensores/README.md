@@ -11,6 +11,22 @@
 ## Diagrama de conexiones
 ![Diagrama](../GIFTS/diagrama.jpeg)
 
+## Tabla I/O actualizada
+
+| Tipo | Nombre | Descripción funcional | Tipo de señal | Condición de activación / uso | Notas de seguridad / estado |
+|------|--------|-----------------------|---------------|------------------------------|-----------------------------|
+| DI | Sensor magnético superior | Detecta posición totalmente abierta | Digital 24V | Activación por imán (posición alta) | Confirma apertura completa |
+| DI | Sensor magnético medio | Detecta posición intermedia | Digital 24V | Activación por imán en punto medio | Control de referencia |
+| DI | Sensor magnético inferior | Detecta posición totalmente cerrada | Digital 24V | Activación por imán (posición baja) | Evita sobre recorrido |
+| DI | Sensor infrarrojo | Detecta presencia de obstáculos | Digital 24V | Activación hasta 30 cm | Bloquea cierre por seguridad |
+| DI | Sensor inductivo | Activa ciclo automático de cortina | Digital 24V | Detecta metal (≤0.1 cm) | Señal de inicio del sistema |
+| DI | Sensor capacitivo | Paro de emergencia | Digital 24V | Detecta objeto/material (0.3–0.5 cm) | Señal crítica de seguridad |
+| DO | Motor subir | Activa actuador en sentido ascendente | Salida digital 24V | Orden del controlador | Interbloqueado con sensores |
+| DO | Motor bajar | Activa actuador en sentido descendente | Salida digital 24V | Orden del controlador | Se bloquea si hay obstáculo |
+| DO | Lámpara ANDON – Verde | Indica operación normal | Salida digital 24V | Sistema en funcionamiento | Estado seguro |
+| DO | Lámpara ANDON – Amarillo | Indica advertencia | Salida digital 24V | Sensor activo o condición preventiva | Estado de precaución |
+| DO | Lámpara ANDON – Rojo | Indica falla o paro emergencia | Salida digital 24V | Activación paro o error | Estado crítico |
+
 ## Riesgos y consideraciones
 ¿Qué podría fallar y cómo se mitiga?
 
