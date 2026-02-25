@@ -80,7 +80,6 @@ Una vez conectados, llevamos a cabo pruebas individuales para verificar el funci
 
 | Decisión | Alternativas | Justificación |
 |----------|-------------|---------------|
-| Conectar los sensores directamente al LOGO! | Usar módulos intermedios | La conexión directa simplificó la instalación y era compatible eléctricamente. |
 | Probar cada sensor por separado | Probar todos al mismo tiempo | Hacerlo individualmente permitió verificar mejor su funcionamiento sin interferencias. |
 | Medir la distancia de activación | Solo comprobar encendido/apagado | Medir la distancia permitió tener datos más claros sobre su desempeño. |
 
