@@ -9,9 +9,5 @@
 |Sensor de proximidad infrarrojo E3F-DS30P1 (PNP-NO)|Radiación infrarroja reflejada (presencia de objeto)|Digital PNP – Normalmente Abierto|Se utilizará como sensor de seguridad para detectar si hay personas u objetos en el área de operación.|
 
 
-## Actuadores seleccionados
-| Actuador | Función | Tipo | Justificación |
-|--------|---------|------|---------------|
-
 ## Riesgos y consideraciones
 ¿Qué podría fallar y cómo se mitiga?
