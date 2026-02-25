@@ -229,7 +229,7 @@ Estos resultados confirman el correcto funcionamiento de los sensores dentro de 
 | Parámetro                          | Valor Datasheet | Valor Experimental | Error (%) |
 |------------------------------------|-----------------|--------------------|-----------|
 | Distancia nominal                  |      1cm           |    0.5cm           |     50%      |
-| Tiempo de respuesta (si aplica)    |        N/A         |        N/A            |     N/A      |
+| Tiempo de respuesta (si aplica)    |        Inmediato       |        N/A            |     N/A      |
 | Tipo de material recomendado       |    materiales metálicos y no metálicos   |     materiales metálicos y no metálicos               |      -     |
 
 ---
@@ -237,9 +237,9 @@ Estos resultados confirman el correcto funcionamiento de los sensores dentro de 
 
 | Parámetro                          | Valor Datasheet | Valor Experimental | Error (%) |
 |------------------------------------|-----------------|--------------------|-----------|
-| Distancia nominal                  |                 |                    |           |
-| Tiempo de respuesta (si aplica)    |                 |                    |           |
-| Tipo de material recomendado       |                 |                    |           |
+| Distancia nominal                  |         4mm        |        4.6cm            |    N/A       |
+| Tiempo de respuesta (si aplica)    |         No especificado       |      Inmediato              |      N/A     |
+| Tipo de material recomendado       |        Metalicos y Magneticos        |          Metalicos y Magneticos              |     -      |
 
 ---
 
@@ -247,9 +247,11 @@ Estos resultados confirman el correcto funcionamiento de los sensores dentro de 
 
 | Parámetro                          | Valor Datasheet | Valor Experimental | Error (%) |
 |------------------------------------|-----------------|--------------------|-----------|
-| Distancia nominal                  |                 |                    |           |
-| Tiempo de respuesta (si aplica)    |                 |                    |           |
-| Tipo de material recomendado       |                 |                    |           |
+| Distancia nominal                  |      5-30cm           |      30cm              |   0%        |
+| Tiempo de respuesta (si aplica)    |       N/A          |        Inmediato            |  N/A         |
+| Tipo de material recomendado       |       Cualquier material          |       Cualquier material             |     -      |
+
+
 
 ## Análisis Técnico del Equipo
 
