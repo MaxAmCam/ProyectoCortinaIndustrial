@@ -59,5 +59,5 @@ Aplicare los conceptos de sensores en toda mi carrera ya que son partes escencia
 ## Autoevaluación
 - ⬜ Muy perdido
 - ⬜ Con dudas
-- ⬜ Entendiendo
+- ☑️ Entendiendo
 - ⬜ Dominando
