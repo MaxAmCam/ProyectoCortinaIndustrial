@@ -66,11 +66,9 @@
                          estable     estable     efectiva (mm) (mm)                      
                          (mm)        (mm)                                                
   ---------- ----------- ----------- ----------- ------------- ----------- ------------- ---------------
-  Acero                                                                                  
+  Metal
 
-  Aluminio                                                                               
-
-  Cobre                                                                                  
+  Piel
 
   Plástico                                                                               
 
