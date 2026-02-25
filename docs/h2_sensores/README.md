@@ -330,7 +330,7 @@ Conclusión:
 
 ## Evidencia
 
-![Sensor Capacitivo](docs/GIFTS/Capacitivo.gif)
+![Capacitivo](../GIFTS/Sensor1.gif)
 
 -   Fotografías del montaje:
 -   Capturas del programa en LOGO:
