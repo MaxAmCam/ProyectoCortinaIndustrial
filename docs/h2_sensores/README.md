@@ -31,12 +31,19 @@
 1. Sensor de Proximidad Inductivo
 
 Tipo de sensor: Inductivo
+
 Modelo: LJ12A3-4-Z/BX
+
 Tipo de salida: NPN – Normalmente Abierto
+
 Alimentación: 6 – 36 VDC
+
 Distancia nominal (según datasheet): 4 mm
+
 Tipo de conexión al LOGO: Digital
+
 Observaciones iniciales: Detecta únicamente objetos metálicos mediante generación de un campo electromagnético.
+
 Datasheet: https://lorentzzi.com/es/products/proximity-sensor/inductive-proximity-sensor/lj12a3-4-z-bx-3-wire-inductive-proximity-sensor/
 
 2. Sensor de Proximidad Capacitivo
