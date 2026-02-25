@@ -25,7 +25,7 @@
 1.4) Sensor de proximidad infrarojo:Limpiar lente óptico frecuentemente. Monitorear diagnóstico en tiempo real y evitar reflexiones falsas con calibración.
 
 
-# MR2022 -- Registro Experimental de Pruebas de Sensores de Proximidad
+## MR2022 -- Registro Experimental de Pruebas de Sensores de Proximidad
 ## Identificación del Sensor
 
   Parámetro                             Información
@@ -65,7 +65,7 @@
 
 ------------------------------------------------------------------------
 
-# 3️⃣ Prueba de Distancia Incremental
+## Prueba de Distancia Incremental
 
 > Mover el objeto en incrementos regulares y registrar comportamiento
 > del LED y del LOGO.
@@ -97,7 +97,7 @@
 
 ------------------------------------------------------------------------
 
-# 4️⃣ Comparación vs Especificación del Fabricante
+## Comparación vs Especificación del Fabricante
 
   Parámetro                         Valor Datasheet   Valor Experimental   Error (%)
   --------------------------------- ----------------- -------------------- -----------
@@ -107,7 +107,7 @@
 
 ------------------------------------------------------------------------
 
-# 5️⃣ Análisis Técnico del Equipo
+## Análisis Técnico del Equipo
 
 ## 5.1 ¿Coincide la distancia real con la nominal?
 
@@ -144,7 +144,7 @@ Respuesta:
 
 ------------------------------------------------------------------------
 
-# 6️⃣ Matriz de Decisión Técnica
+## Matriz de Decisión Técnica
 
   ----------------------------------------------------------------------------
   Criterio      Peso (1--5)  Evaluación del sensor (1--5) Resultado ponderado
@@ -171,7 +171,7 @@ Respuesta:
 
 ------------------------------------------------------------------------
 
-# 7️⃣ Conclusión Ingenieril
+## Conclusión Ingenieril
 
 Redactar una conclusión técnica defendible:
 
@@ -184,7 +184,7 @@ Conclusión:
 
 ------------------------------------------------------------------------
 
-# 8️⃣ Evidencia
+## Evidencia
 
 -   Fotografías del montaje:
 -   Capturas del programa en LOGO:
@@ -193,7 +193,7 @@ Conclusión:
 
 ------------------------------------------------------------------------
 
-# 9️⃣ Bitácora de Aprendizaje
+## Bitácora de Aprendizaje
 
 ¿Qué aprendieron técnicamente sobre sensores de proximidad que no sabían
 antes?
