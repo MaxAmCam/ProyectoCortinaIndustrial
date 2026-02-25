@@ -321,6 +321,10 @@ Conclusión:
 
 ## Evidencia
 
+Montaje
+
+![Sensor](../GIFTS/montaje.jpeg)
+
 Inductivo
 
 ![Inductivo](../GIFTS/Sensor1.gif)
