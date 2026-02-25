@@ -228,12 +228,11 @@ Estos resultados confirman el correcto funcionamiento de los sensores dentro de 
 
 | Parámetro                          | Valor Datasheet | Valor Experimental | Error (%) |
 |------------------------------------|-----------------|--------------------|-----------|
-| Distancia nominal                  |                 |                    |           |
-| Tiempo de respuesta (si aplica)    |                 |                    |           |
-| Tipo de material recomendado       |                 |                    |           |
+| Distancia nominal                  |      1cm           |    0.5cm           |     50%      |
+| Tiempo de respuesta (si aplica)    |        N/A         |        N/A            |     N/A      |
+| Tipo de material recomendado       |    materiales metálicos y no metálicos   |     materiales metálicos y no metálicos               |      -     |
 
 ---
-
 ## Sensor Inductivo
 
 | Parámetro                          | Valor Datasheet | Valor Experimental | Error (%) |
