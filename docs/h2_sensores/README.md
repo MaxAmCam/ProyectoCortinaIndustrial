@@ -214,13 +214,43 @@ Estos resultados confirman el correcto funcionamiento de los sensores dentro de 
 
 ## Comparación vs Especificación del Fabricante
 
-  Parámetro                         Valor Datasheet   Valor Experimental   Error (%)
-  --------------------------------- ----------------- -------------------- -----------
-  Distancia nominal                                                        
-  Tiempo de respuesta (si aplica)                                          
-  Tipo de material recomendado                                             
+## Sensor Magnético
 
-------------------------------------------------------------------------
+| Parámetro                          | Valor Datasheet    | Valor Experimental | Error (%) |
+|------------------------------------|--------------------|--------------------|-----------|
+| Distancia nominal                  | No especificado    | 4.6cm              | N/A       |
+| Tiempo de respuesta (si aplica)    | No especificado    | Inmediato          | N/A       |
+| Tipo de material recomendado       | Magnético          | Imán               | -         |
+
+---
+
+## Sensor Capacitivo
+
+| Parámetro                          | Valor Datasheet | Valor Experimental | Error (%) |
+|------------------------------------|-----------------|--------------------|-----------|
+| Distancia nominal                  |                 |                    |           |
+| Tiempo de respuesta (si aplica)    |                 |                    |           |
+| Tipo de material recomendado       |                 |                    |           |
+
+---
+
+## Sensor Inductivo
+
+| Parámetro                          | Valor Datasheet | Valor Experimental | Error (%) |
+|------------------------------------|-----------------|--------------------|-----------|
+| Distancia nominal                  |                 |                    |           |
+| Tiempo de respuesta (si aplica)    |                 |                    |           |
+| Tipo de material recomendado       |                 |                    |           |
+
+---
+
+## Sensor Infrarrojo
+
+| Parámetro                          | Valor Datasheet | Valor Experimental | Error (%) |
+|------------------------------------|-----------------|--------------------|-----------|
+| Distancia nominal                  |                 |                    |           |
+| Tiempo de respuesta (si aplica)    |                 |                    |           |
+| Tipo de material recomendado       |                 |                    |           |
 
 ## Análisis Técnico del Equipo
 
