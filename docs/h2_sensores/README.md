@@ -39,7 +39,7 @@
 
 
 
-# MR2022 -- Registro Experimental de Pruebas de Sensores de Proximidad
+## MR2022 -- Registro Experimental de Pruebas de Sensores de Proximidad
 
 ## Curso: Análisis de Elementos de Mecatrónica
 
