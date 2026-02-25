@@ -130,8 +130,7 @@ https://serproindu.cl/wp-content/uploads/2024/09/FICHA-TECNICA-SME-8M-DS-24V-K-2
 
 ## Prueba de Distancia Incremental
 
-> Mover el objeto en incrementos regulares y registrar comportamiento
-> del LED y del LOGO.
+Mover el objeto en incrementos regulares y registrar comportamiento del LED y del LOGO.
 
 ---
 
