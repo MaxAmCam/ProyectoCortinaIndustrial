@@ -199,17 +199,6 @@ https://serproindu.cl/wp-content/uploads/2024/09/FICHA-TECNICA-SME-8M-DS-24V-K-2
 
 ---
 
-# Conclusión
-
-Durante las pruebas, los sensores magnético, capacitivo e infrarrojo mostraron un funcionamiento consistente, enviando correctamente la señal al PLC LOGO según la presencia del objeto dentro de su rango de detección.
-
-El sensor inductivo presentó inconsistencias a partir de los 12 mm, lo cual coincide con su distancia nominal de detección de 4 mm, indicando que fuera de su rango de operación ya no detecta correctamente el objeto.
-
-Estos resultados confirman el correcto funcionamiento de los sensores dentro de sus rangos especificados en el datasheet.
-
-*(Ajustar rango según especificación del sensor)*
-
-
 ------------------------------------------------------------------------
 
 ## Comparación vs Especificación del Fabricante
@@ -332,7 +321,13 @@ Conclusión:
 
 ## Evidencia
 
-![Capacitivo](../GIFTS/Sensor1.gif)
+Inductivo
+
+![Inductivo](../GIFTS/Sensor1.gif)
+
+Capacitivo
+
+![Capacitivo](../GIFTS/Sensor2.gif)
 
 -   Fotografías del montaje:
 -   Capturas del programa en LOGO:
