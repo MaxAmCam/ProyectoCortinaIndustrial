@@ -72,10 +72,10 @@
 
 Sensor magnético
   -------------------------------------------------------------------------------
-  Distancia   LED del sensor   Entrada en     ¿Detección            Comentarios
+  Distancia  | LED del sensor  | Entrada en   |  ¿Detección          |  Comentarios
   (mm)        (ON/OFF)         LOGO (1/0)     consistente? (Sí/No)  
   ----------- ---------------- -------------- --------------------- -------------
-  0                 ON              1                 Sí                 N/A
+  0         |        ON       |       1      |           Sí        |         N/A
 
   2                 ON              1                 Sí                 N/A
 
