@@ -199,14 +199,13 @@ Mover el objeto en incrementos regulares y registrar comportamiento del LED y de
 ---
 
 ------------------------------------------------------------------------
-
 ## Comparación vs Especificación del Fabricante
 
 ## Sensor Magnético
 
 | Parámetro                          | Valor Datasheet    | Valor Experimental | Error (%) |
 |------------------------------------|--------------------|--------------------|-----------|
-| Distancia nominal                  | No especificado    | 4.6cm              | N/A       |
+| Distancia nominal                  | No especificado    | 4.6cm            | N/A       |
 | Tiempo de respuesta (si aplica)    | No especificado    | Inmediato          | N/A       |
 | Tipo de material recomendado       | Magnético          | Imán               | -         |
 
@@ -216,7 +215,7 @@ Mover el objeto en incrementos regulares y registrar comportamiento del LED y de
 
 | Parámetro                          | Valor Datasheet | Valor Experimental | Error (%) |
 |------------------------------------|-----------------|--------------------|-----------|
-| Distancia nominal                  |      1cm           |    0.5cm           |     50%      |
+| Distancia nominal                  |      1cm           |    0.5cm (imán)         |     50%      |
 | Tiempo de respuesta (si aplica)    |        Inmediato       |        N/A            |     N/A      |
 | Tipo de material recomendado       |    materiales metálicos y no metálicos   |     materiales metálicos y no metálicos               |      -     |
 
@@ -225,7 +224,7 @@ Mover el objeto en incrementos regulares y registrar comportamiento del LED y de
 
 | Parámetro                          | Valor Datasheet | Valor Experimental | Error (%) |
 |------------------------------------|-----------------|--------------------|-----------|
-| Distancia nominal                  |         4mm        |        0.1cm            |    N/A       |
+| Distancia nominal                  |         4mm        |        1.3cm (imán)           |    N/A       |
 | Tiempo de respuesta (si aplica)    |         No especificado       |      Inmediato              |      N/A     |
 | Tipo de material recomendado       |        Metalicos y Magneticos        |          Metalicos y Magneticos              |     -      |
 
