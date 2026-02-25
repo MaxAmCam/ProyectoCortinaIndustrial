@@ -42,7 +42,7 @@
 ## MR2022 -- Registro Experimental de Pruebas de Sensores de Proximidad
 ------------------------------------------------------------------------
 
-# 1️⃣ Identificación del Sensor
+# Identificación del Sensor
 
   Parámetro                             Información
   ------------------------------------- ---------------------------------------------
@@ -56,7 +56,7 @@
 
 ------------------------------------------------------------------------
 
-# 2️⃣ Resultados por Material Evaluado
+# Resultados por Material Evaluado
 
 > Registrar comportamiento REAL medido en laboratorio.
 
@@ -78,9 +78,10 @@
 
   Vidrio                                                                                 
 
-  Agua                                                                                   
+  Agua
 
-  Imán                                                                                   
+  Imán
+
   ------------------------------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------
