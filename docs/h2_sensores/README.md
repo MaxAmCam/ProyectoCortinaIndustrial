@@ -9,20 +9,6 @@
 |Sensor de proximidad infrarrojo E3F-DS30P1 (PNP-NO)|Radiación infrarroja reflejada (presencia de objeto)|Digital PNP – Normalmente Abierto|Se utilizará como sensor de seguridad para detectar si hay personas u objetos en el área de operación.|
 
 
-## Plan de Pruebas de Sensores
-
-| # | Sensor                         | Condición inicial                          | Estímulo aplicado            | Resultado esperado              | Resultado obtenido        | Criterio |
-|---|--------------------------------|--------------------------------------------|------------------------------|---------------------------------|---------------------------|----------|
-| 1 | Sensor Inductivo               | Sensor energizado y en reposo              | Aproximación de metal        | Activación del sensor           | Activación a 0.1 cm       | PASS     |
-| 2 | Sensor Infrarrojo              | Sensor energizado y alineado               | Aproximación de plástico     | Activación del sensor           | Activación a 30 cm        | PASS     |
-| 3 | Sensor Infrarrojo              | Sensor energizado y alineado               | Aproximación de metal        | Activación del sensor           | Activación a 30 cm        | PASS     |
-| 4 | Sensor Infrarrojo              | Sensor energizado y alineado               | Aproximación de piel humana  | Activación del sensor           | Activación a 30 cm        | PASS     |
-| 5 | Sensor Magnético de Proximidad | Sensor energizado                          | Aproximación de imán         | Activación del sensor           | Activación a 4.6 cm       | PASS     |
-| 6 | Sensor Capacitivo       | Sensor energizado                          | Aproximación de plástico     | Activación del sensor           | Activación a 0.2 cm       | PASS     |
-| 7 | Sensor Capacitivo       | Sensor energizado                          | Aproximación de metal        | Activación del sensor           | Activación a 0.3 cm       | PASS     |
-| 8 |  Sensor Capacitivo        | Sensor energizado                          | Aproximación de mano         | Activación del sensor           | Activación a 0.5 cm       | PASS     |
-
-
 ## Riesgos y consideraciones
 ¿Qué podría fallar y cómo se mitiga?
 
@@ -40,8 +26,6 @@
 
 
 ## MR2022 -- Registro Experimental de Pruebas de Sensores de Proximidad
-------------------------------------------------------------------------
-
 # Identificación del Sensor
 
   Parámetro                             Información
@@ -55,8 +39,6 @@
   Observaciones iniciales               
 
 ------------------------------------------------------------------------
-
-# Resultados por Material Evaluado
 
 ## Resultados por Material Evaluado
 
