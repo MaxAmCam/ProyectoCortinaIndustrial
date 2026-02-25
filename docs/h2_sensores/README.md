@@ -58,27 +58,26 @@
 
 # Resultados por Material Evaluado
 
-> Registrar comportamiento REAL medido en laboratorio.
+## Resultados por Material Evaluado
 
-  ------------------------------------------------------------------------------------------------------
-  Material   ¿Detecta?   Distancia   Distancia   Distancia     Zona        Falsas        Observaciones
-             (Sí/No)     mínima      máxima      promedio      inestable   detecciones   técnicas
-                         estable     estable     efectiva (mm) (mm)                      
-                         (mm)        (mm)                                                
-  ---------- ----------- ----------- ----------- ------------- ----------- ------------- ---------------
-  Metal
-
-  Piel
-
-  Plástico                                                                               
-
-  Madera                                                                                 
-
-  Vidrio                                                                                 
-
-  Agua
-
-  Imán
+| Sensor | Material | ¿Detecta? | Distancia mínima (cm) | Distancia máxima (cm) | Promedio (cm) | Zona inestable | Observaciones técnicas |
+|--------|----------|-----------|-----------------------|-----------------------|---------------|----------------|------------------------|
+| Capacitivo | Metal | Sí | 0 | 0.3 | 0.15 | > 0.3 cm | Detección estable |
+| Capacitivo | Piel | Sí | 0 | 0.5 | 0.25 | > 0.5 cm | Respuesta estable |
+| Capacitivo | Madera | Sí | 0 | 0.3 | 0.15 | > 0.3 cm | Variación de capacitancia |
+| Capacitivo | Agua | Sí | 0 | 0.3 | 0.15 | > 0.3 cm | Alta constante dieléctrica |
+| Capacitivo | Imán | Sí | 0 | 0.5 | 0.25 | > 0.5 cm | Detecta como objeto material |
+| Capacitivo | Plástico | No | — | — | — | — | No presentó activación |
+| Inductivo | Metal | Sí | 0 | 0.1 | 0.05 | > 0.1 cm | Detecta material conductor |
+| Inductivo | Imán | Sí | 0 | 1.3 | 0.65 | > 1.3 cm | Detecta por núcleo metálico |
+| Inductivo | Otros materiales | No | — | — | — | — | No conductores |
+| Infrarrojo | Metal | Sí | 0 | 30 | 15 | > 30 cm | Reflexión IR estable |
+| Infrarrojo | Piel | Sí | 0 | 30 | 15 | > 30 cm | Detección correcta |
+| Infrarrojo | Madera | Sí | 0 | 30 | 15 | > 30 cm | Respuesta adecuada |
+| Infrarrojo | Agua | Sí | 0 | 30 | 15 | > 30 cm | Detecta superficie reflectiva |
+| Infrarrojo | Plástico transparente | No | — | — | — | — | No refleja IR |
+| Magnético | Imán | Sí | 0 | 4.6 | 2.3 | > 4.6 cm | Activación por campo magnético |
+| Magnético | Otros materiales | No | — | — | — | — | No generan campo magnético |
 
   ------------------------------------------------------------------------------------------------------
 
