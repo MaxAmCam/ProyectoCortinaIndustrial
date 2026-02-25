@@ -338,29 +338,77 @@ Además, todos se pueden conectar al PLC LOGO y son accesibles.
 ------------------------------------------------------------------------
 
 ## Matriz de Decisión Técnica
+# Matriz de Decisión Técnica
 
-  ----------------------------------------------------------------------------
-  Criterio      Peso (1--5)  Evaluación del sensor (1--5) Resultado ponderado
-  ------------- ------------ ---------------------------- --------------------
-  Precisión                                               
+A continuación, presentamos la evaluación técnica de cada sensor utilizado en el proyecto, considerando su desempeño experimental, facilidad de integración y características industriales.
 
-  Distancia                                               
-  útil                                                    
+---
 
-  Robustez                                                
-  industrial                                              
+# Sensor Magnético FESTO SME-8M-DS-24V-K-2,5-OE
 
-  Inmunidad a                                             
-  ruido                                                   
+| Criterio | Peso | Evaluación | Resultado ponderado |
+|---|---|---|---|
+| Precisión | 5 | 5 | 25 |
+| Distancia útil | 4 | 4 | 16 |
+| Robustez industrial | 5 | 5 | 25 |
+| Inmunidad a ruido | 4 | 5 | 20 |
+| Costo | 3 | 4 | 12 |
+| Facilidad de integración con LOGO | 5 | 5 | 25 |
+| **TOTAL** |  |  | **123** |
 
-  Costo                                                   
+**Análisis:**  
+Este sensor presentó un funcionamiento muy estable y preciso al detectar el imán. Es ideal para detectar posiciones en sistemas neumáticos o mecánicos.
 
-  Facilidad de                                            
-  integración                                             
-  con LOGO                                                
+---
 
-  **TOTAL**                                               
-  ----------------------------------------------------------------------------
+# Sensor Capacitivo LJC18A3-B-Z/BX
+
+| Criterio | Peso | Evaluación | Resultado ponderado |
+|---|---|---|---|
+| Precisión | 5 | 3 | 15 |
+| Distancia útil | 4 | 3 | 12 |
+| Robustez industrial | 5 | 4 | 20 |
+| Inmunidad a ruido | 4 | 3 | 12 |
+| Costo | 3 | 5 | 15 |
+| Facilidad de integración con LOGO | 5 | 5 | 25 |
+| **TOTAL** |  |  | **99** |
+
+**Análisis:**  
+Este sensor puede detectar diferentes materiales, pero su distancia de detección fue menor a la esperada y es más sensible a factores del entorno.
+
+---
+
+# Sensor Inductivo LJ12A3-4-Z/BX
+
+| Criterio | Peso | Evaluación | Resultado ponderado |
+|---|---|---|---|
+| Precisión | 5 | 5 | 25 |
+| Distancia útil | 4 | 4 | 16 |
+| Robustez industrial | 5 | 5 | 25 |
+| Inmunidad a ruido | 4 | 5 | 20 |
+| Costo | 3 | 5 | 15 |
+| Facilidad de integración con LOGO | 5 | 5 | 25 |
+| **TOTAL** |  |  | **126** |
+
+**Análisis:**  
+Este sensor fue uno de los más confiables, con buena precisión y excelente desempeño al detectar materiales metálicos.
+
+---
+
+# Sensor Infrarrojo E3F-DS30P1
+
+| Criterio | Peso | Evaluación | Resultado ponderado |
+|---|---|---|---|
+| Precisión | 5 | 4 | 20 |
+| Distancia útil | 4 | 5 | 20 |
+| Robustez industrial | 5 | 4 | 20 |
+| Inmunidad a ruido | 4 | 3 | 12 |
+| Costo | 3 | 5 | 15 |
+| Facilidad de integración con LOGO | 5 | 5 | 25 |
+| **TOTAL** |  |  | **112** |
+
+**Análisis:**  
+Este sensor presentó una buena distancia de detección, siendo útil para aplicaciones de seguridad. Sin embargo, su desempeño depende del tipo de material.
 
 ------------------------------------------------------------------------
 
