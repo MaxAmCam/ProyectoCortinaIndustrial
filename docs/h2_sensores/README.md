@@ -329,11 +329,6 @@ Capacitivo
 
 ![Capacitivo](../GIFTS/Sensor2.gif)
 
--   Fotografías del montaje:
--   Capturas del programa en LOGO:
--   Video corto de funcionamiento:
--   Datasheet utilizado (link o archivo en repositorio):
-
 ------------------------------------------------------------------------
 
 ## Bitácora de Aprendizaje
