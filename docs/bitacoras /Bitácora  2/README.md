@@ -61,3 +61,42 @@ Aplicare los conceptos de sensores en toda mi carrera ya que son partes escencia
 - ⬜ Con dudas
 - ☑️ Entendiendo
 - ⬜ Dominando
+
+
+
+# Bitácora – Semana 2 - Joel
+
+## Tema de la semana  
+Conexión y prueba de sensores con el controlador LOGO!.
+
+## Actividades realizadas  
+Durante esta semana comenzamos con una introducción a los sensores, lo cual me permitió comprender mejor su funcionamiento, sus principios de operación y las diferencias entre cada tipo. También conocimos cómo íbamos a trabajar a lo largo del proyecto, los materiales que utilizaríamos y la aplicación que se desarrollará, específicamente relacionada con la cortina industrial.
+
+Posteriormente, realizamos la conexión de los diferentes sensores al módulo LOGO!. Antes de energizar el sistema, revisamos cuidadosamente el cableado y la alimentación para asegurarnos de que todo estuviera correctamente instalado.
+
+Una vez conectados, llevamos a cabo pruebas individuales para verificar el funcionamiento de cada sensor. Se probaron según su tipo y principio de operación, observando su activación y midiendo las distancias correspondientes. Estas pruebas permitieron confirmar que los sensores respondían adecuadamente al integrarse con el LOGO!.
+
+## Decisiones de ingeniería
+
+| Decisión | Alternativas | Justificación |
+|----------|-------------|---------------|
+| Conectar los sensores directamente al LOGO! | Usar módulos intermedios | La conexión directa simplificó la instalación y era compatible eléctricamente. |
+| Probar cada sensor por separado | Probar todos al mismo tiempo | Hacerlo individualmente permitió verificar mejor su funcionamiento sin interferencias. |
+| Medir la distancia de activación | Solo comprobar encendido/apagado | Medir la distancia permitió tener datos más claros sobre su desempeño. |
+
+## Problema técnico encontrado  
+Al momento de conectar la fuente de energía, el módulo LOGO! no encendía, lo que impidió comenzar con las pruebas en un inicio.
+
+## Solución aplicada  
+Se revisó la alimentación con el multímetro y se detectó que el fusible de la clema estaba dañado. Se reemplazó el fusible y, una vez hecho esto, el LOGO! encendió correctamente y se pudieron realizar las pruebas sin más inconvenientes.
+
+## Conexión con el curso  
+Las actividades realizadas esta semana se relacionan directamente con los temas vistos en clase sobre sensores y automatización industrial. La introducción teórica me permitió comprender mejor el principio de funcionamiento de cada sensor y su aplicación dentro de un sistema de control.
+
+La conexión al LOGO! y las pruebas realizadas me ayudaron a reforzar el concepto de entradas digitales, permitiendo llevar la teoría a la práctica dentro del proyecto de la cortina industrial.
+
+## Autoevaluación
+- ⬜ Muy perdido
+- ⬜ Con dudas
+- ☑️ Entendiendo
+- ⬜ Dominando
