@@ -224,7 +224,7 @@ Mover el objeto en incrementos regulares y registrar comportamiento del LED y de
 
 | Parámetro                          | Valor Datasheet | Valor Experimental | Error (%) |
 |------------------------------------|-----------------|--------------------|-----------|
-| Distancia nominal                  |         4mm        |        1.3cm (imán)           |    N/A       |
+| Distancia nominal                  |         4mm        |        1.3cm (imán)           |    225%       |
 | Tiempo de respuesta (si aplica)    |         No especificado       |      Inmediato              |      N/A     |
 | Tipo de material recomendado       |        Metalicos y Magneticos        |          Metalicos y Magneticos              |     -      |
 
@@ -234,7 +234,7 @@ Mover el objeto en incrementos regulares y registrar comportamiento del LED y de
 
 | Parámetro                          | Valor Datasheet | Valor Experimental | Error (%) |
 |------------------------------------|-----------------|--------------------|-----------|
-| Distancia nominal                  |      5-30cm           |      30cm              |   225%        |
+| Distancia nominal                  |      5-30cm           |      30cm              |   0%        |
 | Tiempo de respuesta (si aplica)    |       N/A          |        Inmediato            |  N/A         |
 | Tipo de material recomendado       |       Cualquier material          |       Cualquier material             |     -      |
 
