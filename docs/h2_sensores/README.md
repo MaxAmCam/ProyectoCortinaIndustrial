@@ -412,15 +412,63 @@ Este sensor presentó una buena distancia de detección, siendo útil para aplic
 
 ## Conclusión Ingenieril
 
-Redactar una conclusión técnica defendible:
+## ¿Recomendarían estos sensores?
 
--   ¿Recomendarían este sensor?
--   ¿En qué condiciones sí?
--   ¿En qué condiciones no?
--   ¿Qué riesgos industriales identifican?
+Sí, nosotros recomendamos el uso de estos sensores en el proyecto de la cortina industrial, ya que durante las pruebas experimentales demostraron un funcionamiento adecuado, buena precisión y compatibilidad con el PLC LOGO.
 
-Conclusión:
+El sensor inductivo y el sensor magnético fueron los más confiables, ya que presentaron mayor estabilidad y precisión en la detección.
 
+El sensor infrarrojo también es recomendable, especialmente para funciones de seguridad, porque permite detectar objetos a mayor distancia.
+
+El sensor capacitivo es útil cuando se requiere detectar diferentes tipos de materiales, aunque su precisión es menor que los otros sensores.
+
+---
+
+## ¿En qué condiciones sí?
+
+Recomendamos usar estos sensores en condiciones donde:
+
+- Se utilicen dentro de su distancia nominal de funcionamiento.
+- Estén correctamente instalados y alineados.
+- No exista exceso de suciedad en la superficie de detección.
+- No haya daños en el cableado.
+- Se realice mantenimiento preventivo.
+
+En estas condiciones, los sensores funcionan de forma confiable y segura.
+
+---
+
+## ¿En qué condiciones no?
+
+No recomendamos su uso cuando:
+
+- Existan ambientes con exceso de polvo, humedad o grasa sin mantenimiento.
+- El sensor esté fuera de su rango de detección.
+- El sensor esté mal instalado o mal alineado.
+- Existan golpes o daños físicos en el sensor.
+
+Esto puede provocar fallas o falsas detecciones.
+
+---
+
+## ¿Qué riesgos industriales identifican?
+
+Los principales riesgos que nosotros identificamos son:
+
+- Falsas detecciones.
+- Falta de detección de objetos o personas.
+- Activación incorrecta del sistema.
+- Fallas por daño físico o suciedad.
+
+Estos riesgos pueden provocar fallas en el funcionamiento de la cortina industrial o posibles accidentes.
+
+Sin embargo, estos riesgos se pueden reducir mediante una correcta instalación, calibración y mantenimiento.
+
+---
+
+## Conclusión final
+
+En conclusión, nosotros consideramos que estos sensores son adecuados para el proyecto, ya que cumplen con los requerimientos técnicos, son fáciles de integrar con el PLC LOGO y presentan un funcionamiento confiable.
 ------------------------------------------------------------------------
 
 ## Evidencia
