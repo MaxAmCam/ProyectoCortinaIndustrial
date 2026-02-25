@@ -131,96 +131,79 @@ https://serproindu.cl/wp-content/uploads/2024/09/FICHA-TECNICA-SME-8M-DS-24V-K-2
 > Mover el objeto en incrementos regulares y registrar comportamiento
 > del LED y del LOGO.
 
-Sensor magnético
-  -------------------------------------------------------------------------------
-  Distancia  | LED del sensor  | Entrada en   |  ¿Detección          |  Comentarios
-  (mm)        (ON/OFF)         LOGO (1/0)     consistente? (Sí/No)  
- | -----------| ---------------- |-------------- |---------------------| -------------
-  0         |        ON       |       1      |           Sí        |         N/A
+---
 
-  2         |        ON        |      1       |          Sí          |       N/A
+# Sensor Magnético
 
-  4         |        ON              1                 Sí                 N/A
+| Distancia (mm) | LED del sensor | Entrada en LOGO (1/0) | ¿Detección consistente? | Comentarios |
+|---|---|---|---|---|
+| 0 | ON | 1 | Sí | N/A |
+| 2 | ON | 1 | Sí | N/A |
+| 4 | ON | 1 | Sí | N/A |
+| 6 | ON | 1 | Sí | N/A |
+| 8 | ON | 1 | Sí | N/A |
+| 10 | ON | 1 | Sí | N/A |
+| 12 | ON | 1 | Sí | N/A |
+| 14 | ON | 1 | Sí | N/A |
+| 16 | ON | 1 | Sí | N/A |
 
-  6         |        ON              1                 Sí                 N/A
+---
 
-  8                 ON              1                 Sí                 N/A
+# Sensor de Proximidad Capacitivo
 
-  10                ON              1                 Sí                 N/A
+| Distancia (mm) | LED del sensor | Entrada en LOGO (1/0) | ¿Detección consistente? | Comentarios |
+|---|---|---|---|---|
+| 0 | ON | 1 | Sí | N/A |
+| 2 | ON | 1 | Sí | N/A |
+| 4 | ON | 1 | Sí | N/A |
+| 6 | OFF | 0 | Sí | N/A |
+| 8 | OFF | 0 | Sí | N/A |
+| 10 | OFF | 0 | Sí | N/A |
+| 12 | OFF | 0 | Sí | N/A |
+| 14 | OFF | 0 | Sí | N/A |
+| 16 | OFF | 0 | Sí | N/A |
 
-  12                ON              1                 Sí                 N/A
+---
 
-  14                ON              1                 Sí                 N/A
+# Sensor de Proximidad Inductivo
 
-  16                ON              1                 Sí                 N/A
-  -------------------------------------------------------------------------------
-  Sensor de proximidad capacitivo
-   Distancia   LED del sensor   Entrada en     ¿Detección            Comentarios
-  (mm)        (ON/OFF)         LOGO (1/0)     consistente? (Sí/No)  
-  ----------- ---------------- -------------- --------------------- -------------
-  0                 ON              1                 Sí                  N/A
+| Distancia (mm) | LED del sensor | Entrada en LOGO (1/0) | ¿Detección consistente? | Comentarios |
+|---|---|---|---|---|
+| 0 | ON | 0 | Sí | N/A |
+| 2 | ON | 0 | Sí | N/A |
+| 4 | ON | 0 | Sí | N/A |
+| 6 | ON | 0 | Sí | N/A |
+| 8 | ON | 0 | Sí | N/A |
+| 10 | ON | 0 | Sí | N/A |
+| 12 | OFF | 1 | No | N/A |
+| 14 | OFF | 1 | No | N/A |
+| 16 | OFF | 1 | No | N/A |
 
-  2                 ON              1                 Sí                  N/A
+---
 
-  4                 ON              1                 Sí                  N/A 
+# Sensor de Proximidad Infrarrojo
 
-  6                 OFF             0                 Sí                  N/A
+| Distancia (mm) | LED del sensor | Entrada en LOGO (1/0) | ¿Detección consistente? | Comentarios |
+|---|---|---|---|---|
+| 0 | ON | 1 | Sí | N/A |
+| 2 | ON | 1 | Sí | N/A |
+| 4 | ON | 1 | Sí | N/A |
+| 6 | ON | 1 | Sí | N/A |
+| 8 | ON | 1 | Sí | N/A |
+| 10 | ON | 1 | Sí | N/A |
+| 12 | ON | 1 | Sí | N/A |
+| 14 | ON | 1 | Sí | N/A |
+| 16 | ON | 1 | Sí | N/A |
 
-  8                 OFF             0                 Sí                  N/A 
+---
 
-  10                OFF             0                 Sí                  N/A  
+# Conclusión
 
-  12                OFF             0                 Sí                  N/A 
+Durante las pruebas, los sensores magnético, capacitivo e infrarrojo mostraron un funcionamiento consistente, enviando correctamente la señal al PLC LOGO según la presencia del objeto dentro de su rango de detección.
 
-  14                OFF             0                 Sí                  N/A   
+El sensor inductivo presentó inconsistencias a partir de los 12 mm, lo cual coincide con su distancia nominal de detección de 4 mm, indicando que fuera de su rango de operación ya no detecta correctamente el objeto.
 
-  16                OFF             0                 Sí                  N/A   
-  -------------------------------------------------------------------------------
-  Sensor de proximidad inductivo
-   Distancia   LED del sensor   Entrada en     ¿Detección            Comentarios
-  (mm)        (ON/OFF)         LOGO (1/0)     consistente? (Sí/No)  
-  ----------- ---------------- -------------- --------------------- -------------
-  0                 ON              0                Sí                  N/A 
-
-  2                 ON              0                Sí                   N/A
-
-  4                 ON              0                Sí                   N/A
-
-  6                 ON              0                Sí                   N/A
-
-  8                 ON              0                Sí                   N/A
-
-  10                ON              0                Sí                   N/A
-
-  12                OFF             1                NO                   N/A
-
-  14                OFF             1                NO                   N/A
-
-  16                OFF             1                NO                   N/A
-  -------------------------------------------------------------------------------
-  Sensor de proximidad infrarojo
-   Distancia   LED del sensor   Entrada en     ¿Detección            Comentarios
-  (mm)        (ON/OFF)         LOGO (1/0)     consistente? (Sí/No)  
-  ----------- ---------------- -------------- --------------------- -------------
-  0                 ON              1                 Sí                  N/A
-
-  2                 ON              1                 Sí                  N/A
-
-  4                 ON              1                 Sí                  N/A
-
-  6                 ON              1                 Sí                  N/A
-
-  8                 ON              1                 Sí                  N/A
-
-  10                ON              1                 Sí                  N/A
-
-  12                ON              1                 Sí                  N/A
-
-  14                ON              1                 Sí                  N/A
-
-  16                ON              1                 Sí                  N/A
-  -------------------------------------------------------------------------------
-  
+Estos resultados confirman el correcto funcionamiento de los sensores dentro de sus rangos especificados en el datasheet.
 
 *(Ajustar rango según especificación del sensor)*
 
