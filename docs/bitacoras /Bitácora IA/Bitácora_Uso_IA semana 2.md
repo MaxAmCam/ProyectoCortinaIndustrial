@@ -153,7 +153,10 @@ Declaramos que:
 **Firma del equipo (nombres):**
 ```
 Max Amezcua
+
 Joel Soto
+
 Claudio Gomez
+
 Sara Díaz
 
