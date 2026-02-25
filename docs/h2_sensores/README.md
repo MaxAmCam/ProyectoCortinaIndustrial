@@ -28,56 +28,76 @@
 ## MR2022 -- Registro Experimental de Pruebas de Sensores de Proximidad
 ## Identificación del Sensor
 
-1. Sensor de Proximidad Inductivo
 
-Tipo de sensor: Inductivo
 
-Modelo: LJ12A3-4-Z/BX
+---
 
-Tipo de salida: NPN – Normalmente Abierto
+# 1. Sensor de Proximidad Inductivo
 
-Alimentación: 6 – 36 VDC
+| Característica | Descripción |
+|---|---|
+| Tipo de sensor | Inductivo |
+| Modelo | LJ12A3-4-Z/BX |
+| Tipo de salida | NPN – Normalmente Abierto |
+| Alimentación | 6 – 36 VDC |
+| Distancia nominal | 4 mm |
+| Tipo de conexión al LOGO | Digital |
+| Observaciones iniciales | Detecta únicamente objetos metálicos mediante la generación de un campo electromagnético. |
 
-Distancia nominal (según datasheet): 4 mm
+**Datasheet:**  
+https://lorentzzi.com/es/products/proximity-sensor/inductive-proximity-sensor/lj12a3-4-z-bx-3-wire-inductive-proximity-sensor/
 
-Tipo de conexión al LOGO: Digital
+---
 
-Observaciones iniciales: Detecta únicamente objetos metálicos mediante generación de un campo electromagnético.
+# 2. Sensor de Proximidad Capacitivo
 
-Datasheet: https://lorentzzi.com/es/products/proximity-sensor/inductive-proximity-sensor/lj12a3-4-z-bx-3-wire-inductive-proximity-sensor/
+| Característica | Descripción |
+|---|---|
+| Tipo de sensor | Capacitivo |
+| Modelo | LJC18A3-B-Z/BX |
+| Tipo de salida | NPN – Normalmente Abierto |
+| Alimentación | 6 – 36 VDC |
+| Distancia nominal | 10 mm |
+| Tipo de conexión al LOGO | Digital |
+| Observaciones iniciales | Detecta materiales metálicos y no metálicos mediante variación de la capacitancia producida por cambios en la constante dieléctrica del entorno. |
 
-2. Sensor de Proximidad Capacitivo
+**Datasheet:**  
+https://www.finglai.com/products/sensors/capacitive-proximity-sensors/LJC18A3-B/
 
-Tipo de sensor: Capacitivo
-Modelo: LJC18A3-B-Z/BX
-Tipo de salida: NPN –  Normalmente Abierto
-Alimentación: 6 – 36 VDC
-Distancia nominal (según datasheet): 10 mm
-Tipo de conexión al LOGO: Digital
-Observaciones iniciales: Detecta materiales metálicos y no metálicos mediante variación de la capacitancia producida por cambios en la constante dieléctrica del entorno.
-Datasheet: https://www.finglai.com/products/sensors/capacitive-proximity-sensors/LJC18A3-B/
+---
 
-3. Sensor de Proximidad Óptico Infrarrojo
+# 3. Sensor de Proximidad Óptico Infrarrojo
 
-Tipo de sensor: Óptico Infrarrojo
-Modelo: E3F-DS30P1
-Tipo de salida: PNP – Normalmente Abierto
-Alimentación: 6 – 36 VDC
-Distancia nominal (según datasheet): 5 - 30 cm
-Tipo de conexión al LOGO: Digital
-Observaciones iniciales: Detecta presencia de objetos mediante emisión y recepción de radiación infrarroja reflejada.
-Datasheet: https://www.finglai.com/products/sensors/cylinder-amplifier-photoelectric-sensors/E3F-DS30/E3F-DS30P1.html
+| Característica | Descripción |
+|---|---|
+| Tipo de sensor | Óptico Infrarrojo |
+| Modelo | E3F-DS30P1 |
+| Tipo de salida | PNP – Normalmente Abierto |
+| Alimentación | 6 – 36 VDC |
+| Distancia nominal | 5 – 30 cm |
+| Tipo de conexión al LOGO | Digital |
+| Observaciones iniciales | Detecta presencia de objetos mediante emisión y recepción de radiación infrarroja reflejada. |
 
-4. Sensor Magnético de Proximidad
+**Datasheet:**  
+https://www.finglai.com/products/sensors/cylinder-amplifier-photoelectric-sensors/E3F-DS30/E3F-DS30P1.html
 
-Tipo de sensor: Magnético
-Modelo: FESTO SME-8M-DS-24V-K-2,5-OE
-Tipo de salida: PNP – Normalmente Abierto
-Alimentación: 5 – 30 VDC
-Distancia nominal (según datasheet): No especifica distancia en mm
-Tipo de conexión al LOGO: Digital
-Observaciones iniciales: Detecta la posición del cilindro neumático mediante un imán instalado en el émbolo, enviando una señal cuando pasa frente al sensor. 
-Datasheet: https://serproindu.cl/wp-content/uploads/2024/09/FICHA-TECNICA-SME-8M-DS-24V-K-25-OE.pdf
+---
+
+# 4. Sensor Magnético de Proximidad
+
+| Característica | Descripción |
+|---|---|
+| Tipo de sensor | Magnético |
+| Modelo | FESTO SME-8M-DS-24V-K-2,5-OE |
+| Tipo de salida | PNP – Normalmente Abierto |
+| Alimentación | 5 – 30 VDC |
+| Distancia nominal | No especifica distancia en mm |
+| Tipo de conexión al LOGO | Digital |
+| Observaciones iniciales | Detecta la posición del cilindro neumático mediante un imán instalado en el émbolo, enviando una señal cuando pasa frente al sensor. |
+
+**Datasheet:**  
+https://serproindu.cl/wp-content/uploads/2024/09/FICHA-TECNICA-SME-8M-DS-24V-K-25-OE.pdf
+
 
 ------------------------------------------------------------------------
 
