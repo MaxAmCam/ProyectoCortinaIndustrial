@@ -12,6 +12,19 @@
 ## Riesgos y consideraciones
 ¿Qué podría fallar y cómo se mitiga?
 
+1) Fallos en el sensor magnético de proximidad:Falla por separación del imán del mecanismo móvil, corrosión en entornos húmedos o cableado dañado en movimientos repetidos. Daño: Detección errónea de posiciones (ej: cree cortina cerrada cuando está abierta), causando atascos o colisiones.
+2) Fallos en el sensor de proximidad capacitivo:Falla por acumulación de polvo/humedad alterando capacitancia, interferencias de materiales cercanos o polaridad inversa. Daño: Falsas detecciones de objetos, cierre prematuro, riesgo de aplastamiento o daños.
+3) Fallos en el sensor de proximidad inductivo:Falla por corrientes en metales, vibraciones o sobrecarga eléctrica por demasiado Amperaje. Daño: Activaciones inesperadas como botón de inicio falso, arranque no autorizado de cortina o fallos en detección metálica, exponiendo usuarios.
+4) Fallos en el sensor de proximidad infrarojo:Falla por suciedad en lente bloqueando IR, cambios de temperatura/humedad o reflexión por superficies brillantes. Daño: No detectar personas/objetos, permitiendo que cierre sobre ellos. Riesgo de accidentes graves como atrapamientos o lesiones.
+
+¿Cómo se mitiga cada problema?
+
+1.1) Sensor magnético de proximidad:Fijar imán con adhesivos resistentes y cables flexibles y limpiar corrosión periódicamente. Tambien desconectar antes de mantenimiento.
+1.2) Sensor de proximidad capacitivo:Limpiar superficie de detección regularmente para evitar polvo/humedad y verificar polaridad .
+1.3) Sensor de proximidad inductivo:Alejar metales no deseados.
+1.4) Sensor de proximidad infrarojo:Limpiar lente óptico frecuentemente. Monitorear diagnóstico en tiempo real y evitar reflexiones falsas con calibración.
+
+
 
 
 # MR2022 -- Registro Experimental de Pruebas de Sensores de Proximidad
