@@ -70,30 +70,99 @@
 > Mover el objeto en incrementos regulares y registrar comportamiento
 > del LED y del LOGO.
 
+Sensor magnético
   -------------------------------------------------------------------------------
   Distancia   LED del sensor   Entrada en     ¿Detección            Comentarios
   (mm)        (ON/OFF)         LOGO (1/0)     consistente? (Sí/No)  
   ----------- ---------------- -------------- --------------------- -------------
-  0                                                                 
+  0                 ON              1                 Sí                 N/A
 
-  2                                                                 
+  2                 ON              1                 Sí                 N/A
 
-  4                                                                 
+  4                 ON              1                 Sí                 N/A
 
-  6                                                                 
+  6                 ON              1                 Sí                 N/A
 
-  8                                                                 
+  8                 ON              1                 Sí                 N/A
 
-  10                                                                
+  10                ON              1                 Sí                 N/A
 
-  12                                                                
+  12                ON              1                 Sí                 N/A
 
-  14                                                                
+  14                ON              1                 Sí                 N/A
 
-  16                                                                
+  16                ON              1                 Sí                 N/A
   -------------------------------------------------------------------------------
+  Sensor de proximidad capacitivo
+   Distancia   LED del sensor   Entrada en     ¿Detección            Comentarios
+  (mm)        (ON/OFF)         LOGO (1/0)     consistente? (Sí/No)  
+  ----------- ---------------- -------------- --------------------- -------------
+  0                 ON              1                 Sí                  N/A
+
+  2                 ON              1                 Sí                  N/A
+
+  4                 ON              1                 Sí                  N/A 
+
+  6                 OFF             0                 Sí                  N/A
+
+  8                 OFF             0                 Sí                  N/A 
+
+  10                OFF             0                 Sí                  N/A  
+
+  12                OFF             0                 Sí                  N/A 
+
+  14                OFF             0                 Sí                  N/A   
+
+  16                OFF             0                 Sí                  N/A   
+  -------------------------------------------------------------------------------
+  Sensor de proximidad inductivo
+   Distancia   LED del sensor   Entrada en     ¿Detección            Comentarios
+  (mm)        (ON/OFF)         LOGO (1/0)     consistente? (Sí/No)  
+  ----------- ---------------- -------------- --------------------- -------------
+  0                 ON              0                Sí                  N/A 
+
+  2                 ON              0                Sí                   N/A
+
+  4                 ON              0                Sí                   N/A
+
+  6                 ON              0                Sí                   N/A
+
+  8                 ON              0                Sí                   N/A
+
+  10                ON              0                Sí                   N/A
+
+  12                OFF             1                NO                   N/A
+
+  14                OFF             1                NO                   N/A
+
+  16                OFF             1                NO                   N/A
+  -------------------------------------------------------------------------------
+  Sensor de proximidad infrarojo
+   Distancia   LED del sensor   Entrada en     ¿Detección            Comentarios
+  (mm)        (ON/OFF)         LOGO (1/0)     consistente? (Sí/No)  
+  ----------- ---------------- -------------- --------------------- -------------
+  0                 ON              1                 Sí                  N/A
+
+  2                 ON              1                 Sí                  N/A
+
+  4                 ON              1                 Sí                  N/A
+
+  6                 ON              1                 Sí                  N/A
+
+  8                 ON              1                 Sí                  N/A
+
+  10                ON              1                 Sí                  N/A
+
+  12                ON              1                 Sí                  N/A
+
+  14                ON              1                 Sí                  N/A
+
+  16                ON              1                 Sí                  N/A
+  -------------------------------------------------------------------------------
+  
 
 *(Ajustar rango según especificación del sensor)*
+
 
 ------------------------------------------------------------------------
 
