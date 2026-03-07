@@ -2,10 +2,10 @@
 # Bitácora de Uso de Inteligencia Artificial (IA)
 
 ## Información general
-- **Equipo:**  
-- **Integrantes:**  
-- **Semana / Hito:** (H1 / H2 / H3 / H4 / H5)  
-- **Fecha:**  
+- **Equipo: 2**  
+- **Integrantes: Joel Soto. Claudio Gómez. Sara Díaz. Max Amezcua**  
+- **Semana / Hito:** (H3)  
+- **Fecha: 06/03/2026**  
 
 ---
 
@@ -13,7 +13,7 @@
 Marca una opción:
 
 - ⬜ No se utilizó IA en esta etapa  
-- ⬜ Sí se utilizó IA de forma puntual  
+- 🟪 Sí se utilizó IA de forma puntual  
 - ⬜ Sí se utilizó IA de forma recurrente  
 
 > ⚠️ Si marcas “No se utilizó IA”, completa únicamente las secciones 7, 8 y 9.
@@ -21,19 +21,14 @@ Marca una opción:
 ---
 
 ## 2️⃣ Objetivo del uso de IA
-Describe **para qué** se utilizó la IA (no qué herramienta).
-
-Ejemplos:
-- Comprender un concepto técnico
-- Generar alternativas de diseño
-- Revisar redacción técnica
-- Proponer estructura de pruebas
-- Detectar errores lógicos
-
 **Descripción del objetivo:**
 ```
+La IA se utilizó como apoyo para entender mejor cómo funciona la lógica de control del sistema que estamos implementando en el PLC LOGO para la cortina industrial.
 
-(escribir aquí)
+Se utilizó para:
+- Comprender mejor el concepto de interlock de seguridad en sistemas automatizados.
+- Tener una idea de qué condiciones prohibidas se deben considerar, por ejemplo evitar que el motor reciba la orden de subir y bajar al mismo tiempo.
+- Apoyo en la redacción y organización de la tabla de interlocks y de la explicación de la lógica de control.
 
 ```
 
@@ -42,7 +37,7 @@ Ejemplos:
 ## 3️⃣ Herramienta(s) de IA utilizada(s)
 Marca las que apliquen:
 
-- ⬜ ChatGPT  
+- 🟪 ChatGPT  
 - ⬜ Copilot  
 - ⬜ Otra (especificar): ______________________  
 
@@ -56,25 +51,31 @@ Copia **solo los prompts más importantes** (no todos).
 **Prompt 1:**
 ```
 
-(pegar prompt aquí)
+¿Qué es un interlock en sistemas de control industrial y para qué se utiliza?
 
 ```
 
-**Prompt 2 (opcional):**
+**Prompt 2:**
 ```
 
-(pegar prompt aquí)
+En un sistema con un motor controlado por PLC, ¿cómo se puede evitar que el motor reciba la orden de subir y bajar al mismo tiempo?
 
 ```
+**Prompt 3:**
+```
 
+Ayudame a redactar una explicación sencilla de la lógica de control de una cortina automatizada controlada con PLC LOGO, motor DC y torre de luz
+
+```
 ---
 
 ## 5️⃣ Respuesta(s) obtenida(s) de la IA
 Resume o copia los fragmentos **relevantes** de la respuesta.
 
 ```
+Chatgpt nos explicó que un interlock es una condición de seguridad que se utiliza en sistemas de control para evitar que ocurran acciones que puedan causar fallas o riesgos en el sistema. En nuestro caso, nos dio que se puede implementar un interlock para evitar que el sistema active al mismo tiempo las señales de subir y bajar el motor, ya que esto podría causar problemas eléctricos o mecánicos.
 
-(resumen o extracto aquí)
+También ayudó a entender cómo se pueden definir condiciones prohibidas dentro de la lógica del sistema y cómo estas pueden bloquearse mediante la programación del PLC. Además se utilizó para apoyar en la redacción de la explicación del funcionamiento general del sistema y la lógica de control.
 
 ```
 
@@ -85,14 +86,16 @@ Resume o copia los fragmentos **relevantes** de la respuesta.
 ### 6.1 ¿Qué parte fue útil?
 ```
 
-(escribir aquí)
+Fue útil la explicación del concepto de interlock y su aplicación en sistemas de control, ya que nos ayudó a comprender cómo evitar que ocurran acciones contradictorias dentro del sistema, como activar al mismo tiempo las señales de subir y bajar del motor.
+
+También fue útil saber cómo identificar condiciones prohibidas y la acción de bloqueo, esto nos ayudó a estructurar mejor la tabla de interlocks y a entender cómo describir la lógica de seguridad del sistema en el reporte.
 
 ```
 
 ### 6.2 ¿Qué parte fue incorrecta, incompleta o no aplicable?
 ```
 
-(escribir aquí)
+Algunas explicaciones fueron muy generales y no estaban adaptadas específicamente al sistema que estamos usando con PLC LOGO y relevadores. Por lo que fue necesario investigar más y ajustar la información al funcionamiento real de nuestra cortina.
 
 ```
 
@@ -100,13 +103,13 @@ Resume o copia los fragmentos **relevantes** de la respuesta.
 Marca y explica:
 
 - ⬜ Se utilizó tal como lo propuso la IA  
-- ⬜ Se utilizó parcialmente (adaptado)  
+- 🟪 Se utilizó parcialmente (adaptado)  
 - ⬜ Se rechazó  
 
 **Justificación técnica de la decisión:**
 ```
 
-(escribir aquí)
+La IA se utilizó como apoyo para entender los conceptos y mejorar la redacción del documento, pero la lógica del sistema, las conexiones y las pruebas fueron realizadas por nosotros.
 
 ```
 
@@ -116,15 +119,15 @@ Marca y explica:
 Indica **cómo se verificó** la información antes de usarla:
 
 - ⬜ Comparación con apuntes/clase  
-- ⬜ Prueba en el sistema real  
-- ⬜ Discusión en equipo  
-- ⬜ Consulta con el profesor  
+- 🟪 Prueba en el sistema real  
+- 🟪 Discusión en equipo  
+- 🟪 Consulta con el profesor  
 - ⬜ Otra: ______________________  
 
 **Evidencia o explicación breve de la verificación:**
 ```
 
-(escribir aquí)
+La lógica del interlock se probó directamente en el sistema utilizando el PLC LOGO y el motor. El resto de las decisiones sobre la lógica de control y las condiciones prohibidas las fuimos discutiendo y analizando en equipo para asegurarnos de que el funcionamiento fuera correcto.
 
 ```
 
@@ -140,7 +143,7 @@ Reflexiona brevemente:
 
 ```
 
-(escribir aquí)
+La IA nos ayudó a ahorrar tiempo y también a entender mejor algunos conceptos relacionados con los interlocks y la lógica del sistema. Además, fue útil para mejorar la redacción de algunas partes del reporte.
 
 ```
 
@@ -151,7 +154,7 @@ Reflexiona brevemente:
 
 ```
 
-(escribir aquí)
+Aprendimos que la IA puede servir como una herramienta para aclarar conceptos o ayudar con la redacción de un documento, pero no sustituye las pruebas reales ni el análisis que se tiene que hacer en el proyecto.
 
 ```
 
@@ -165,5 +168,11 @@ Declaramos que:
 
 **Firma del equipo (nombres):**
 ```
+Max Amezcua
 
+Joel Soto
+
+Claudio Gomez
+
+Sara Díaz
 
