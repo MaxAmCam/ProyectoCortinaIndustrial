@@ -43,6 +43,9 @@ Por último, el sistema cuenta con dos luces indicadoras: la lámpara roja se en
 ## Ajustes realizados
 Describe cambios hechos tras las pruebas.
 
+## Evidencia de seguridad (prueba de interlocks)
+Aqui poner el video
+
 ## Tabla de interlocks
 | Interlock | Condición prohibida | Señales involucradas | Acción del sistema | Descripción |
 |-----------|---------------------|----------------------|-------------------|-------------|
@@ -52,9 +55,6 @@ Describe cambios hechos tras las pruebas.
 | Interlock de límite inferior | Intentar bajar cuando la cortina ya está abajo | I6 (sensor magnético inferior) | Se bloquea el motor de bajada | Cuando la cortina alcanza la posición inferior, el sistema evita que el motor continúe bajando para prevenir daños mecánicos. |
 | Interlock de seguridad por obstáculo | Bajar la cortina cuando se detecta una persona u objeto | I3 (sensor óptico) | Se detiene el movimiento | Si el sensor óptico detecta una persona u objeto durante el movimiento, el sistema detiene la cortina para evitar accidentes. |
 | Interlock de paro de emergencia | Continuar el movimiento cuando se activa el paro manual | I1 (sensor capacitivo) | Se detiene inmediatamente el sistema | El sensor capacitivo funciona como un paro manual de seguridad. Cuando se activa, el sistema cancela el movimiento de la cortina para prevenir riesgos. |
-
-## Evidencia de seguridad (prueba de interlocks)
-Aqui poner el video
 
 ## Evidencia del funcionamiento correcto de la torre de luz
 ![Semaforo](../GIFTS/Funcionamientosemaforo.gif)
