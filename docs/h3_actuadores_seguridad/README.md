@@ -53,3 +53,5 @@ Describe cambios hechos tras las pruebas.
 
 ## Evidencia del funcionamiento correcto de la torre de luz
 ![Semaforo](../GIFTS/Funcionamientosemaforo.gif)
+
+La torre de luz permite identificar visualmente el estado de funcionamiento del sistema. La luz roja se enciende cuando la cortina está en movimiento, ya sea durante la subida o la bajada, indicando que el mecanismo se encuentra operando. Por otro lado, la luz verde se enciende cuando la cortina ha llegado completamente a la posición inferior y permanece detenida mientras se cumple el temporizador antes de iniciar nuevamente la subida.
