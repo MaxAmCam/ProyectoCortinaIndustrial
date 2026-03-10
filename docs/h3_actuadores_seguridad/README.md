@@ -28,8 +28,8 @@ Por último, el sistema cuenta con dos luces indicadoras: la lámpara roja se en
 ### Salidas
 | Salida | Tipo | Función |
 |--------|------|---------|
-| Q1 | Motor | Activa el motor para bajar la cortina. |
-| Q2 | Motor | Activa el motor para subir la cortina. |
+| Q1 | Motor | Activa el motor para subir la cortina. |
+| Q2 | Motor | Activa el motor para bajar la cortina. |
 | Q3 | Lámpara roja | Se enciende cuando la cortina está en movimiento, ya sea subiendo o bajando. |
 | Q4 | Lámpara verde | Se enciende cuando la cortina ha llegado completamente abajo y permanece detenida durante el temporizador. |
 
