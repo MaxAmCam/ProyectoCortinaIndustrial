@@ -33,6 +33,8 @@ Por último, el sistema cuenta con dos luces indicadoras: la lámpara roja se en
 | Q3 | Lámpara roja | Se enciende cuando la cortina está en movimiento, ya sea subiendo o bajando. |
 | Q4 | Lámpara verde | Se enciende cuando la cortina ha llegado completamente abajo y permanece detenida durante el temporizador. |
 
+## Esquema funcional 
+![Esquema](../GIFTS/ESQUEMA.png)
 
 ## Pruebas realizadas
 | Prueba | Resultado esperado | Resultado obtenido |
@@ -55,3 +57,5 @@ Describe cambios hechos tras las pruebas.
 ![Semaforo](../GIFTS/Funcionamientosemaforo.gif)
 
 La torre de luz permite identificar visualmente el estado de funcionamiento del sistema. La luz roja se enciende cuando la cortina está en movimiento, ya sea durante la subida o la bajada, indicando que el mecanismo se encuentra operando. Por otro lado, la luz verde se enciende cuando la cortina ha llegado completamente a la posición inferior y permanece detenida mientras se cumple el temporizador antes de iniciar nuevamente la subida.
+
+##
