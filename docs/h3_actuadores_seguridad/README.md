@@ -18,8 +18,8 @@ Por último, el sistema cuenta con dos luces indicadoras: la lámpara roja se en
 ### Entradas
 | Entrada | Tipo | Función |
 |--------|------|---------|
-| I1 | Sensor inductivo | Detecta la condición de activación del sistema. Solo permite iniciar el ciclo cuando el sensor magnético superior confirma que la cortina está en la posición inicial. |
-| I2 | Sensor capacitivo | Funciona como paro o control de seguridad manual. Cuando se activa, el sistema detiene el movimiento de la cortina. |
+| I1 | Sensor capacitivo | Funciona como paro o control de seguridad manual. Cuando se activa, el sistema detiene el movimiento de la cortina. |
+| I2 | Sensor inductivo | Detecta la condición de activación del sistema. Solo permite iniciar el ciclo cuando el sensor magnético superior confirma que la cortina está en la posición inicial. |
 | I3 | Sensor óptico | Detecta la presencia de una persona u objeto en la zona de la cortina. Si se activa durante el movimiento, el sistema detiene la cortina para evitar accidentes. |
 | I4 | Sensor magnético superior | Detecta que la cortina está completamente arriba y permite que el sistema pueda iniciar el ciclo de operación. |
 | I5 | Sensor magnético medio | Indica que la cortina se encuentra en una posición intermedia durante el recorrido. |
@@ -40,7 +40,7 @@ Por último, el sistema cuenta con dos luces indicadoras: la lámpara roja se en
 | Prueba              | Resultado esperado                                                                 | Resultado obtenido                                      |
 |---------------------|------------------------------------------------------------------------------------|---------------------------------------------------------|
 | Sensor magnético | Encender la lámpara ANDON cuando la cortina se encuentre en la posición intermedia o detenida, y activar la subida de la cortina 10 segundos después de llegar a la posición inferior. | El sistema respondió correctamente: la lámpara ANDON se encendió en las condiciones esperadas y la cortina inició la subida después del tiempo establecido. |
-| Sensor infrarrojo | Activar una parada de emergencia al detectar la presencia de una persona u objeto frente a la cortina. | El sensor detectó correctamente cualquier acercamiento y el motor se detuvo de inmediato. |
+| Sensor óptico | Activar una parada de emergencia al detectar la presencia de una persona u objeto frente a la cortina. | El sensor detectó correctamente cualquier acercamiento y el motor se detuvo de inmediato. |
 | Sensor capacitivo | Activar una parada de emergencia al presionar el sensor. | El sistema se detuvo correctamente al activar el sensor capacitivo. |
 | Sensor inductivo | Iniciar el movimiento de la cortina al detectar un objeto metálico cercano. | El sensor detectó correctamente objetos metálicos y activó el inicio del sistema. |
 
