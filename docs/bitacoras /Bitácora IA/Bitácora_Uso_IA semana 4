@@ -2,18 +2,17 @@
 # Bitácora de Uso de Inteligencia Artificial (IA)
 
 ## Información general
-- **Equipo:**  
-- **Integrantes:**  
-- **Semana / Hito:** (H1 / H2 / H3 / H4 / H5)  
-- **Fecha:**  
-
+- **Equipo: 2**  
+- **Integrantes: Joel Soto. Claudio Gómez. Sara Díaz. Max Amezcua**  
+- **Semana / Hito:** (H4)  
+- **Fecha: 06/03/2026**  
 ---
 
 ## 1️⃣ Uso de IA en esta etapa
 Marca una opción:
 
 - ⬜ No se utilizó IA en esta etapa  
-- ⬜ Sí se utilizó IA de forma puntual  
+- 🟪 Sí se utilizó IA de forma puntual  
 - ⬜ Sí se utilizó IA de forma recurrente  
 
 > ⚠️ Si marcas “No se utilizó IA”, completa únicamente las secciones 7, 8 y 9.
@@ -33,8 +32,9 @@ Ejemplos:
 **Descripción del objetivo:**
 ```
 
-(escribir aquí)
+La IA se utilizó como apoyo para entender mejor algunos aspectos de la validación del sistema y para mejorar la redacción de la descripción del funcionamiento del sistema y la secuencia de operación.
 
+También se utilizó para tener una idea más clara de cómo describir las pruebas realizadas al sistema, los sensores y los actuadores dentro del reporte del proyecto.
 ```
 
 ---
@@ -42,7 +42,7 @@ Ejemplos:
 ## 3️⃣ Herramienta(s) de IA utilizada(s)
 Marca las que apliquen:
 
-- ⬜ ChatGPT  
+- 🟪 ChatGPT  
 - ⬜ Copilot  
 - ⬜ Otra (especificar): ______________________  
 
@@ -56,15 +56,13 @@ Copia **solo los prompts más importantes** (no todos).
 **Prompt 1:**
 ```
 
-(pegar prompt aquí)
-
+¿Cómo se puede explicar de forma clara el funcionamiento de sensores y actuadores dentro de un sistema automatizado?
 ```
 
 **Prompt 2 (opcional):**
 ```
 
-(pegar prompt aquí)
-
+¿Qué información se debe incluir al describir el funcionamiento de un PLC dentro de un sistema automatizado?
 ```
 
 ---
@@ -74,8 +72,8 @@ Resume o copia los fragmentos **relevantes** de la respuesta.
 
 ```
 
-(resumen o extracto aquí)
-
+Para el primer prompt la IA sugirió explicar primero la función de cada sensor dentro del sistema y después describir cómo los actuadores responden a las señales enviadas por el controlador. También recomendó relacionar el funcionamiento de los sensores y actuadores con la secuencia general del sistema para que la explicación sea más fácil de entender.
+Para el segundo prompt la IA mencionó que se debe explicar qué señales recibe el PLC, qué lógica ejecuta y qué acciones envía a los actuadores. También sugirió describir cómo el controlador responde a los sensores y cómo se ejecuta la secuencia de operación del sistema.
 ```
 
 ---
@@ -85,29 +83,26 @@ Resume o copia los fragmentos **relevantes** de la respuesta.
 ### 6.1 ¿Qué parte fue útil?
 ```
 
-(escribir aquí)
-
+Fue útil la parte donde se explicó que primero se debe describir la función de cada sensor dentro del sistema y después cómo los actuadores responden a las señales enviadas por el controlador, ya que esto ayudó a organizar mejor la explicación del funcionamiento del sistema. También fue útil la explicación sobre qué tipo de señales recibe el PLC, qué lógica ejecuta y cómo envía las acciones a los actuadores, lo que ayudó a entender mejor cómo describir el funcionamiento del controlador dentro del sistema.
 ```
 
 ### 6.2 ¿Qué parte fue incorrecta, incompleta o no aplicable?
 ```
 
-(escribir aquí)
-
+Las respuestas fueron algo generales y no estaban completamente adaptadas al funcionamiento específico de nuestro sistema. Por ejemplo, no mencionaban directamente los sensores y actuadores que usamos en el proyecto, por lo que fue necesario ajustar la información con base en las pruebas realizadas durante la práctica.
 ```
 
 ### 6.3 Decisión final del equipo
 Marca y explica:
 
 - ⬜ Se utilizó tal como lo propuso la IA  
-- ⬜ Se utilizó parcialmente (adaptado)  
+- 🟪 Se utilizó parcialmente (adaptado)  
 - ⬜ Se rechazó  
 
 **Justificación técnica de la decisión:**
 ```
 
-(escribir aquí)
-
+La IA se utilizó como apoyo para entender mejor cómo explicar el funcionamiento de sensores, actuadores y del PLC dentro del sistema. Sin embargo, la validación del sistema y el análisis del funcionamiento se realizaron directamente por el equipo durante la práctica.
 ```
 
 ---
@@ -116,16 +111,15 @@ Marca y explica:
 Indica **cómo se verificó** la información antes de usarla:
 
 - ⬜ Comparación con apuntes/clase  
-- ⬜ Prueba en el sistema real  
-- ⬜ Discusión en equipo  
+- 🟪 Prueba en el sistema real  
+- 🟪 Discusión en equipo  
 - ⬜ Consulta con el profesor  
 - ⬜ Otra: ______________________  
 
 **Evidencia o explicación breve de la verificación:**
 ```
 
-(escribir aquí)
-
+El funcionamiento del sistema se verificó mediante pruebas realizadas durante la práctica. También se discutió en equipo la secuencia de operación del sistema y el comportamiento de los sensores, actuadores y del PLC para confirmar que coincidiera con el funcionamiento real.
 ```
 
 ---
@@ -140,8 +134,7 @@ Reflexiona brevemente:
 
 ```
 
-(escribir aquí)
-
+La IA ayudó a ahorrar tiempo al momento de organizar la información y mejorar la redacción del reporte. También ayudó a entender mejor cómo explicar el funcionamiento del sistema y la relación entre sensores, actuadores y el controlador.
 ```
 
 ---
@@ -151,8 +144,7 @@ Reflexiona brevemente:
 
 ```
 
-(escribir aquí)
-
+Aprendimos que la IA puede servir como apoyo para entender algunos conceptos y mejorar la redacción del documento, pero no sustituye las pruebas reales ni el análisis que se debe realizar durante el desarrollo del proyecto.
 ```
 
 ---
@@ -165,5 +157,12 @@ Declaramos que:
 
 **Firma del equipo (nombres):**
 ```
+Max Amezcua
+
+Joel Soto
+
+Claudio Gomez
+
+Sara Díaz
 
 
