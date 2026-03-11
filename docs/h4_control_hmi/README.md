@@ -5,10 +5,10 @@ usuario mediante HMI.
 
 ## Estado general del sistema
 Marca el estado actual del sistema:
-- No funcional⬜
-- Parcialmente funcional⬜
-- Funcional con fallas⬜
-- Funcional estable⬜
+- No funcional ⬜
+- Parcialmente funcional ⬜
+- Funcional con fallas ⬜
+- Funcional estable ☑️
 ---
 ## Secuencia de operación validada
 Describe paso a paso cómo opera el sistema completo:
