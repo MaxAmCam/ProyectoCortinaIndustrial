@@ -51,15 +51,19 @@ Describe **máximo 3** fallas relevantes encontradas durante la validación.
 ---
 ## Ajustes realizados
 | Falla | Ajuste realizado | Resultado |
-|----|-----------------|----------|
+|-------|------------------|-----------|
+| Atascamiento en la cortina | Volteamos la cortina y corregimos fallas en la impresión 3D | La cortina funcionó correctamente |
+| El LOGO! no encendía | Cambiamos el fusible | El LOGO! se encendió sin problemas |
+| El HMI no cargó correctamente en el LOGO! | Volvimos a realizar la instalación | El programa funcionó de manera correcta |
+
 ---
 ## Preparación para demostración final
 Indica qué está listo y qué falta por afinar:
-- Lógica de control⬜
-- HMI⬜
-- Cableado⬜
-- Seguridad⬜
-- Evidencias (video/fotos)⬜
+- Lógica de control☑️
+- HMI☑️
+- Cableado☑️
+- Seguridad☑️
+- Evidencias (video/fotos)☑️
 ---
 ## Reflexión breve del equipo
 ¿Qué fue lo más crítico de esta etapa?
