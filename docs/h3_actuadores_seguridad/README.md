@@ -48,8 +48,11 @@ Por último, el sistema cuenta con dos luces indicadoras: la lámpara roja se en
 ## Ajustes realizados
 Se realizaron ajustes en el programa del PLC para lograr que el sensor inductivo fuera el encargado de iniciar el movimiento del motor. Asimismo, se modificó la lógica de control para que los sensores infrarrojo y capacitivo funcionaran como paradas de emergencia, deteniendo inmediatamente el sistema cuando se activan.
 
-## Evidencia de seguridad (prueba de interlocks)
+## Evidencia de interlocks de seguridad 
 Link video: https://youtu.be/NXNXGHxWpJo
+
+## Prueba de interlocks
+Link video: https://youtu.be/Rv0tLWDjXn4
 
 ## Tabla de interlocks
 | Interlock | Condición prohibida | Señales involucradas | Acción del sistema | Descripción |
