@@ -46,7 +46,7 @@ Por último, el sistema cuenta con dos luces indicadoras: la lámpara roja se en
 
 
 ## Ajustes realizados
-Tuvimos que realizar cambios en el código para hacer que el sensor inductivo de inicio al movimiento del motor, y que los sensores infrarrojo y capacitivo hagan paradas de emergencia.
+Se realizaron ajustes en el programa del PLC para lograr que el sensor inductivo fuera el encargado de iniciar el movimiento del motor. Asimismo, se modificó la lógica de control para que los sensores infrarrojo y capacitivo funcionaran como paradas de emergencia, deteniendo inmediatamente el sistema cuando se activan.
 
 ## Evidencia de seguridad (prueba de interlocks)
 Link video: https://youtu.be/NXNXGHxWpJo
