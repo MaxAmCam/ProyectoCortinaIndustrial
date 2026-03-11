@@ -60,6 +60,9 @@ Describe:
 ## Fallas detectadas
 Describe **máximo 3** fallas relevantes encontradas durante la validación.
 ---
+1) Atascamiento de la cortina: la cortina se atoraba inmediatamente al activarse el motor.
+2) Falla en el LOGO!: el módulo no encendía, dejando inoperativos todos los sensores y el motor de accionamiento.
+3) El HMI presentó fallas durante la carga en el LOGO!.
 ## Ajustes realizados
 | Falla | Ajuste realizado | Resultado |
 |-------|------------------|-----------|
