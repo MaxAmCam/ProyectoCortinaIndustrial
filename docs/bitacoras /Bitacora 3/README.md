@@ -61,7 +61,7 @@ El control del LOGO! por medio de programacion, para poder crear la interfaz hum
 # Bitácora – Semana 3- Joel
 
 ## Tema de la semana
-Controles del sistema de la cortina automatizada.
+Actuadores y controles del sistema de la cortina automatizada.
 
 ## Actividades realizadas
 Esta semana trabajamos en la parte de control del sistema de la cortina utilizando el PLC LOGO. Nos enfocamos en organizar la lógica del programa para que el motor pudiera subir y bajar correctamente según las señales de los sensores. También revisamos cómo integrar los sensores dentro de la lógica del control y realizamos pruebas para verificar que el sistema respondiera como se esperaba durante el funcionamiento.
