@@ -58,29 +58,31 @@ Explica cómo se resolvió.
 # Bitácora – Semana 4 Joel
 
 ## Tema de la semana
-(Sensores / Actuadores / Control / HMI)
+Control y validación del sistema.
 
 ## Actividades realizadas
-Describe brevemente lo que trabajó el equipo.
+Durante esta semana nos enfocamos en la validación funcional del sistema completo de la cortina automática. Realizamos pruebas para comprobar el funcionamiento de los sensores, el motor y la torre de señalización. También verificamos que la lógica de control programada en el PLC respondiera correctamente a las señales de los sensores y que el sistema ejecutara la secuencia de operación definida. Además, detectamos algunas fallas mecánicas y de configuración que fueron corregidas durante las pruebas.
 
 ## Decisiones de ingeniería
 | Decisión | Alternativas | Justificación |
 |--------|-------------|---------------|
+| Diseñar un soporte para el motor | Mantener el motor sujeto únicamente con cinchos | Se decidió instalar un soporte para mejorar la estabilidad del motor, evitar movimientos durante su funcionamiento y lograr un montaje más sólido y profesional del sistema. |
+| Reorganizar el cableado del sistema | Mantener los cables pasando por enfrente de las clemas | Se decidió acomodar el cableado para mantener el sistema ordenado, evitar interferencias con las conexiones y reducir el riesgo de daño en los cables. |
 
 ## Problema técnico encontrado
-Describe un problema concreto.
+Durante las pruebas detectamos que la cortina se atascaba al activarse el motor, lo que impedía que el sistema realizara correctamente el movimiento de bajada.
 
 ## Solución aplicada
-Explica cómo se resolvió.
+Revisamos el mecanismo y se identificó que el problema estaba relacionado con la orientación de la cortina. Después de corregir estos detalles y ajustar la posición de la cortina, el sistema volvió a funcionar correctamente.
 
 ## Conexión con el curso
-¿Qué concepto de MR2022 aplicaste esta semana?
+En esta etapa se aplicaron conceptos relacionados con la validación de sistemas de control, integración de sensores y actuadores, y verificación del funcionamiento de la lógica implementada en un PLC.
 
 ## Autoevaluación
 - ⬜ Muy perdido
 - ⬜ Con dudas
 - ⬜ Entendiendo
-- ⬜ Dominando
+- ☑️ Dominando
 
 # Bitácora – Semana 4 Sara
 
