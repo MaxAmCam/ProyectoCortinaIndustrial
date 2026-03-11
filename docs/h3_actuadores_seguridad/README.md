@@ -39,6 +39,10 @@ Por último, el sistema cuenta con dos luces indicadoras: la lámpara roja se en
 ## Pruebas realizadas
 | Prueba | Resultado esperado | Resultado obtenido |
 |------|------------------|------------------|
+Sensor magnetico| encender la lamara ANDON mientras que la cortina este a la mitad o en parada, y subir la cortina 10s despues de estar en su punto mas bajo| Funciono con exito
+Sensor Infrarrojo| Parada de emergencia al detectar a una persona u objeto frente a la cortina | El sensor detecto con exito cualquier acercamiento y detuvo el motor
+Sensor Capacitivo | Parada de emergencia al ser presionado  | Funciono con exito
+Sensor Inductivo| Dar inicio al movimiento de la cortina | Detecta con exito objetos metalicos para dar inicio al sistema
 
 ## Ajustes realizados
 Tuvimos que realizar cambios en el codigo para hacer que el sensor inductivo de inicio al movimiento del motor, y que los sensores infrarrojo y capacitivo hagan paradas de emergencia.
