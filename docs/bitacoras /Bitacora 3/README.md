@@ -70,7 +70,7 @@ Esta semana trabajamos en la parte de control del sistema de la cortina utilizan
 |--------|-------------|---------------|
 | Utilizar un sensor óptico para detectar personas | No incluir detección de presencia | Se decidió incluirlo para mejorar la seguridad y evitar que la cortina pueda cerrar si hay alguien en la zona de movimiento. |
 | Agregar un sensor capacitivo como paro del sistema | No incluir paro manual | Permite detener el sistema de forma rápida si ocurre una situación inesperada. |
-| Configurar la activación del sistema mediante el sensor inductivo | Activar el sistema con otro tipo de sensor o activación manual | Se eligió usar el sensor inductivo para iniciar el mecanismo porque permite detectar automáticamente una condición de activación sin intervención directa del usuario. |
+| Configurar la activación del sistema mediante el sensor inductivo | Activar el sistema con otro sensor o con un pulsador convencional | Se eligió el sensor inductivo porque permite activar el sistema al acercar un objeto metálico, lo que se adapta mejor a la lógica de funcionamiento planteada para el mecanismo. |
 
 ## Problema técnico encontrado
 Queríamos que nuestro sistema funcionara de manera diferente, específicamente que el sensor inductivo fuera el que activara el mecanismo, mientras que el óptico y el capacitivo detuvieran el funcionamiento de la cortina. Sin embargo, al modificar la lógica del programa no obteníamos el resultado que esperábamos, ya que todavía no entendíamos completamente cómo funcionaba la lógica de programación dentro del PLC.
