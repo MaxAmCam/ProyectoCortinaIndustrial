@@ -49,7 +49,7 @@ Por último, el sistema cuenta con dos luces indicadoras: la lámpara roja se en
 Tuvimos que realizar cambios en el código para hacer que el sensor inductivo de inicio al movimiento del motor, y que los sensores infrarrojo y capacitivo hagan paradas de emergencia.
 
 ## Evidencia de seguridad (prueba de interlocks)
-Aqui poner el video
+Link video: https://youtu.be/NXNXGHxWpJo
 
 ## Tabla de interlocks
 | Interlock | Condición prohibida | Señales involucradas | Acción del sistema | Descripción |
