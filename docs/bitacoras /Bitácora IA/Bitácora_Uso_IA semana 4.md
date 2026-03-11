@@ -87,15 +87,13 @@ Para el segundo prompt la IA mencionó que se debe explicar qué señales recibe
 ### 6.1 ¿Qué parte fue útil?
 ```
 
-Fue útil la parte donde se explicó que primero se debe describir la función de cada sensor dentro del sistema y después cómo los actuadores responden a las señales enviadas por el controlador, ya que esto ayudó a organizar mejor la explicación del funcionamiento del sistema. También fue útil la explicación sobre qué tipo de señales recibe el PLC, qué lógica ejecuta y cómo envía las acciones a los actuadores, lo que ayudó a entender mejor cómo describir el funcionamiento del controlador dentro del sistema.
-
+Fue útil la parte donde se explicó que primero se debe describir la función de cada sensor dentro del sistema y después cómo los actuadores responden a las señales enviadas por el controlador, ya que esto ayudó a organizar mejor la explicación del funcionamiento del sistema. También fue útil que nos dijo lo de poner que tipo de señales recibe el PLC, qué lógica ejecuta y cómo envía las acciones a los actuadores.
 ```
 
 ### 6.2 ¿Qué parte fue incorrecta, incompleta o no aplicable?
 ```
 
-Las respuestas fueron algo generales y no estaban completamente adaptadas al funcionamiento específico de nuestro sistema. Por ejemplo, no mencionaban directamente los sensores y actuadores que usamos en el proyecto, por lo que fue necesario ajustar la información con base en las pruebas realizadas durante la práctica.
-
+Las respuestas fueron algo generales y no estaban completamente adaptadas al funcionamiento específico de nuestro sistema. Por ejemplo, no mencionaban directamente los sensores y actuadores que usamos en el proyecto, por lo que fue necesario ajustar la información.
 ```
 
 ### 6.3 Decisión final del equipo
@@ -108,7 +106,7 @@ Marca y explica:
 **Justificación técnica de la decisión:**
 ```
 
-La IA se utilizó como apoyo para entender mejor cómo explicar el funcionamiento de sensores, actuadores y del PLC dentro del sistema. Sin embargo, la validación del sistema y el análisis del funcionamiento se realizaron directamente por el equipo durante la práctica.
+La IA se utilizó como apoyo para entender mejor cómo explicar el funcionamiento de sensores, actuadores y del PLC dentro del sistema. Sin embargo, la validación del sistema y el análisis del funcionamiento se realizaron directamente por todos los integrantes del equipo durante la práctica.
 
 ```
 
