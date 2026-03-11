@@ -39,10 +39,10 @@ Por último, el sistema cuenta con dos luces indicadoras: la lámpara roja se en
 ## Pruebas realizadas
 | Prueba              | Resultado esperado                                                                 | Resultado obtenido                                      |
 |---------------------|------------------------------------------------------------------------------------|---------------------------------------------------------|
-| Sensor magnético    | Encender la lámpara ANDON mientras la cortina esté a la mitad o en parada, y subir la cortina 10s después de estar en su punto más bajo | Funcionó con éxito                                      |
-| Sensor Infrarrojo   | Parada de emergencia al detectar a una persona u objeto frente a la cortina        | El sensor detectó con éxito cualquier acercamiento y detuvo el motor |
-| Sensor Capacitivo   | Parada de emergencia al ser presionado                                             | Funcionó con éxito                                      |
-| Sensor Inductivo    | Dar inicio al movimiento de la cortina                                             | Detecta con éxito objetos metálicos para dar inicio al sistema |
+| Sensor magnético | Encender la lámpara ANDON cuando la cortina se encuentre en la posición intermedia o detenida, y activar la subida de la cortina 10 segundos después de llegar a la posición inferior. | El sistema respondió correctamente: la lámpara ANDON se encendió en las condiciones esperadas y la cortina inició la subida después del tiempo establecido. |
+| Sensor infrarrojo | Activar una parada de emergencia al detectar la presencia de una persona u objeto frente a la cortina. | El sensor detectó correctamente cualquier acercamiento y el motor se detuvo de inmediato. |
+| Sensor capacitivo | Activar una parada de emergencia al presionar el sensor. | El sistema se detuvo correctamente al activar el sensor capacitivo. |
+| Sensor inductivo | Iniciar el movimiento de la cortina al detectar un objeto metálico cercano. | El sensor detectó correctamente objetos metálicos y activó el inicio del sistema. |
 
 
 ## Ajustes realizados
