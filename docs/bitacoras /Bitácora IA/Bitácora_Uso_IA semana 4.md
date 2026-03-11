@@ -5,7 +5,7 @@
 - **Equipo: 2**  
 - **Integrantes: Joel Soto. Claudio Gómez. Sara Díaz. Max Amezcua**  
 - **Semana / Hito:** (H4)  
-- **Fecha: 06/03/2026**  
+- **Fecha: 11/03/2026**  
 ---
 
 ## 1️⃣ Uso de IA en esta etapa
