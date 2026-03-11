@@ -91,7 +91,8 @@ Indica qué está listo y qué falta por afinar:
 - Evidencias (video/fotos)☑️
 ---
 ## Reflexión breve del equipo
-¿Qué fue lo más crítico de esta etapa?
+**¿Qué fue lo más crítico de esta etapa?**
+
 Lo más crítico de esta etapa fue ajustar la lógica de control para que el sistema funcionara exactamente como queríamos. Aunque la lógica base del programa ya estaba definida, al hacer modificaciones para adaptar el comportamiento del sistema nos dimos cuenta de que pequeños cambios podían afectar otras partes del funcionamiento. Esto nos obligó a realizar varias pruebas y ajustes hasta lograr que todos los sensores, el motor y las condiciones de seguridad trabajaran de forma coordinada.
 
 Durante este proceso también entendimos mejor cómo interactúan las entradas y salidas dentro del PLC y cómo una modificación en la lógica puede cambiar el comportamiento del sistema completo. Al final, estas pruebas nos permitieron dejar el sistema funcionando de forma estable y con las condiciones de seguridad que buscábamos implementar.
