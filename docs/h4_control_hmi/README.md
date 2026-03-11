@@ -31,6 +31,10 @@ Marca el estado actual del sistema:
 
 10. Una vez finalizado el temporizador, el PLC activa el motor en sentido de subida hasta que el sensor magnético superior vuelve a detectarse, regresando el sistema a su estado inicial.
 ---
+
+## Diagrama de bloques funcionales del programa.
+
+---
 ## Validación de sensores
 | Sensor | Condición probada | Resultado esperado | Resultado obtenido |
 |------|------------------|------------------|------------------|
@@ -52,10 +56,24 @@ Marca el estado actual del sistema:
 
 ---
 ## Validación del controlador (LOGO)
-Describe:
-- Temporizaciones
-- Condiciones lógicas
-- Interlocks o seguridades implementadas
+Durante la validación del controlador se verificó que el PLC ejecutara correctamente la lógica programada para coordinar sensores, actuadores y condiciones de seguridad del sistema.
+
+**Temporizaciones**
+Se implementó un temporizador de 10 segundos que se activa cuando la cortina llega a la posición inferior. Durante este tiempo el sistema permanece detenido antes de iniciar automáticamente el movimiento de subida. En las pruebas realizadas se comprobó que el temporizador se activa correctamente al detectar la posición inferior y que la subida comienza únicamente después de cumplirse el tiempo programado.
+
+**Condiciones lógicas**
+El sistema solo inicia su ciclo de operación cuando se cumplen las condiciones establecidas en la lógica de control. Para iniciar el movimiento, el sensor inductivo debe detectar un objeto metálico y el sensor magnético superior debe confirmar que la cortina se encuentra en su posición inicial. Esta condición evita que el sistema intente iniciar el ciclo cuando la cortina no está en la posición correcta.
+
+**Interlocks y seguridades**
+Se implementaron diferentes condiciones de seguridad dentro del programa del PLC para prevenir situaciones peligrosas o comportamientos incorrectos del sistema. Entre estas condiciones se incluyen:
+
+- Bloqueo del movimiento cuando se detecta la presencia de una persona mediante el sensor óptico.
+- Paro inmediato del sistema cuando se activa el sensor capacitivo.
+- Bloqueo del motor cuando la cortina alcanza sus límites superior o inferior.
+- Prevención de la activación simultánea de los movimientos de subida y bajada del motor.
+
+Las pruebas realizadas confirmaron que todas estas condiciones de seguridad funcionan correctamente dentro del controlador.
+
 ---
 ## Fallas detectadas
 Describe **máximo 3** fallas relevantes encontradas durante la validación.
