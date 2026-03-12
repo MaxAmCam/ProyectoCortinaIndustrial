@@ -31,29 +31,30 @@ Durante esta semana aplicamos conceptos de automatización y control mediante el
 # Bitácora – Semana 4 Claudio
 
 ## Tema de la semana
-(Sensores / Actuadores / Control / HMI)
+(Control / HMI)
 
 ## Actividades realizadas
-Describe brevemente lo que trabajó el equipo.
+Terminamos la instalación de la cortina y, con ello, la implementación de los *interlocks*. Aseguramos que todo funcionara como debía y realizamos pruebas para cada caso de parada de emergencia.
 
 ## Decisiones de ingeniería
 | Decisión | Alternativas | Justificación |
-|--------|-------------|---------------|
+|----------|--------------|---------------|
+| Crear soportes para el motor | Detener el motor con cinchos | Se eligió colectivamente diseñar un soporte para el motor, garantizando mayor estabilidad durante su funcionamiento. |
 
 ## Problema técnico encontrado
-Describe un problema concreto.
+La cortina se atascaba al accionar el motor y el sensor inductivo tenía lógica invertida.
 
 ## Solución aplicada
-Explica cómo se resolvió.
+Reinstalamos la cortina con ajustes en la impresión 3D y corregimos la programación del sensor inductivo para eliminar la lógica invertida.
 
 ## Conexión con el curso
-¿Qué concepto de MR2022 aplicaste esta semana?
+Completamos la interfaz humano-máquina (HMI), la implementación de sensores, actuadores e *interlocks*. Reacomodamos el cableado para evitar interferencias con el LOGO! y realizamos pruebas exhaustivas para verificar el funcionamiento correcto.
 
 ## Autoevaluación
 - ⬜ Muy perdido
 - ⬜ Con dudas
 - ⬜ Entendiendo
-- ⬜ Dominando
+- ☑️ Dominando
 
 # Bitácora – Semana 4 Joel
 
