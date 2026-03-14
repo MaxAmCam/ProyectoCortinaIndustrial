@@ -28,13 +28,17 @@ Los sensores magnéticos permiten detectar las posiciones superior, media e infe
 La lógica incluye interlocks de seguridad que impiden condiciones peligrosas, como activar simultáneamente el movimiento de subida y bajada del motor o intentar mover la cortina cuando ya se encuentra en un límite de recorrido. Las salidas del sistema controlan el motor en ambas direcciones mediante relés y activan lámparas LED que indican el estado del sistema.
 
 ## Resultados de pruebas
-
-| Sensor                          | Modelo                   | Esperado          | Medido | Resultado | Observaciones                          |
-|---------------------------------|------------------------|-------------------|--------|-----------|----------------------------------------|
-| Magnético de Proximidad        | FESTO SME-8M-DS-24V-K-2,5-OE | 4cm | 4.6cm | ✓        | Detecta imánes robustos a mayor distancia |
-| Capacitivo de Proximidad       | LJC18A3-B-Z/BX (NPN-NO) | 0.5cm | 0.5cm| ✓        | Detecta dieléctricos/líquidos |
-| Inductivo de Proximidad        | LJ12A3-4-Z/BX (NPN-NO) | 0.4cm | 0.38cm | ✓        |  Robusto en metal |
-| Infrarrojo (Óptico) de Proximidad | E3F-DS30P1 (PNP-NO) | 30cm | 30cm   | ✓        | Distancia ajustable hasta 30cm, sensible a luz ambiental |
+| Elemento probado | Condición de prueba | Resultado esperado | Resultado obtenido |
+|------------------|---------------------|--------------------|--------------------|
+| Sensor inductivo | Acercar un objeto metálico al sensor | Iniciar el ciclo de operación de la cortina | El sensor detectó correctamente el objeto metálico y el sistema inició el movimiento |
+| Sensor óptico | Colocar una mano u objeto frente al sensor durante el movimiento | Detener la cortina por seguridad | El sensor detectó correctamente la presencia y el sistema se detuvo inmediatamente |
+| Sensor capacitivo | Activar el sensor manualmente | Detener el sistema como paro de emergencia | El sistema se detuvo correctamente al activar el sensor |
+| Sensor magnético superior | Colocar la cortina en la posición superior | Permitir el inicio del ciclo | El sistema solo inició cuando la cortina estaba en la posición superior |
+| Sensor magnético medio | Llevar la cortina a la posición intermedia | Detectar la posición intermedia y activar la señal correspondiente | El sistema detectó correctamente la posición intermedia |
+| Sensor magnético inferior | Llevar la cortina a la posición inferior | Detener la cortina y activar el temporizador de subida | El sistema detectó correctamente la posición inferior y activó el temporizador |
+| Motor DC | Ejecutar el ciclo completo de bajada y subida | Mover la cortina de forma controlada en ambos sentidos | El motor realizó correctamente los movimientos de bajada y subida |
+| Torre de luz roja | Operación del sistema en la condición programada | Indicar estado de operación | La luz roja se encendió correctamente cuando se cumplió la condición programada |
+| Torre de luz verde | Llegada de la cortina a la posición inferior | Indicar estado de espera en posición inferior | La luz verde se encendió correctamente al llegar a la posición inferior |
 
 
 ## Video demo y foto del equipo
