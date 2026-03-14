@@ -31,6 +31,7 @@ Los sensores magnéticos permiten detectar las posiciones superior, media e infe
 La lógica incluye interlocks de seguridad que impiden condiciones peligrosas, como activar simultáneamente el movimiento de subida y bajada del motor o intentar mover la cortina cuando ya se encuentra en un límite de recorrido. Las salidas del sistema controlan el motor en ambas direcciones mediante relés y activan lámparas LED que indican el estado del sistema.
 
 ## Resultados de pruebas
+
 | Elemento probado | Condición de prueba | Resultado esperado | Resultado obtenido |
 |---|---|---|---|
 | Sensor inductivo | Acercar un objeto metálico al sensor | Iniciar el ciclo de operación de la cortina | El sensor detectó correctamente el objeto metálico y el sistema inició el movimiento |
