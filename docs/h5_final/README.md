@@ -20,6 +20,6 @@ El sistema cumple con los requerimientos iniciales del proyecto, ya que logra in
 Además, el sistema demuestra una integración correcta entre el hardware y el software, logrando un funcionamiento estable después de realizar los ajustes necesarios durante las pruebas.
 
 ## Reflexión final
-Uno de los principales aprendizajes de este proyecto fue comprender cómo integrar sensores, actuadores y un PLC dentro de un sistema mecatrónico real. Durante el desarrollo del proyecto se aprendió a diseñar la lógica de control, a realizar pruebas del sistema y a solucionar problemas tanto mecánicos como eléctricos.
+Uno de los principales aprendizajes de este proyecto fue comprender cómo integrar sensores, actuadores y un PLC dentro de un sistema mecatrónico real. Durante el desarrollo del proyecto se aprendimos a diseñar la lógica de control, a realizar pruebas del sistema y a solucionar problemas tanto mecánicos como eléctricos.
 
-También fue importante entender cómo pequeñas modificaciones en la lógica de control pueden afectar el comportamiento completo del sistema. Finalmente, el proyecto permitió aplicar de forma práctica los conceptos vistos en el curso y entender mejor cómo se implementan sistemas automatizados en la ingeniería.
+También fue importante entender cómo pequeñas modificaciones en la lógica de control pueden afectar el comportamiento completo del sistema. Finalmente, el proyecto nos permitió aplicar de forma práctica los conceptos vistos en el curso y entender mejor cómo se implementan sistemas automatizados en la ingeniería.
